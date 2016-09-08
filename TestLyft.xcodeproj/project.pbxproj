@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F1C45A91D80F585008CBCB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1C45A81D80F585008CBCB8 /* AppDelegate.swift */; };
+		4F1C45AB1D80F585008CBCB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1C45AA1D80F585008CBCB8 /* ViewController.swift */; };
+		4F1C45AE1D80F585008CBCB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F1C45AC1D80F585008CBCB8 /* Main.storyboard */; };
+		4F1C45B01D80F585008CBCB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F1C45AF1D80F585008CBCB8 /* Assets.xcassets */; };
+		4F1C45B31D80F585008CBCB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F1C45B11D80F585008CBCB8 /* LaunchScreen.storyboard */; };
+		4F1C45BE1D80F585008CBCB8 /* TestLyftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1C45BD1D80F585008CBCB8 /* TestLyftTests.swift */; };
+		4F1C45C91D80F585008CBCB8 /* TestLyftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1C45C81D80F585008CBCB8 /* TestLyftUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F1C45BA1D80F585008CBCB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F1C459D1D80F585008CBCB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F1C45A41D80F585008CBCB8;
+			remoteInfo = TestLyft;
+		};
+		4F1C45C51D80F585008CBCB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F1C459D1D80F585008CBCB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F1C45A41D80F585008CBCB8;
+			remoteInfo = TestLyft;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F1C45A51D80F585008CBCB8 /* TestLyft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestLyft.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F1C45A81D80F585008CBCB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4F1C45AA1D80F585008CBCB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4F1C45AD1D80F585008CBCB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F1C45AF1D80F585008CBCB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F1C45B21D80F585008CBCB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F1C45B41D80F585008CBCB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F1C45B91D80F585008CBCB8 /* TestLyftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestLyftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F1C45BD1D80F585008CBCB8 /* TestLyftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLyftTests.swift; sourceTree = "<group>"; };
+		4F1C45BF1D80F585008CBCB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F1C45C41D80F585008CBCB8 /* TestLyftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestLyftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F1C45C81D80F585008CBCB8 /* TestLyftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLyftUITests.swift; sourceTree = "<group>"; };
+		4F1C45CA1D80F585008CBCB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F1C45A21D80F585008CBCB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F1C45B61D80F585008CBCB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F1C45C11D80F585008CBCB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F1C459C1D80F585008CBCB8 = {
+			isa = PBXGroup;
+			children = (
+				4F1C45A71D80F585008CBCB8 /* TestLyft */,
+				4F1C45BC1D80F585008CBCB8 /* TestLyftTests */,
+				4F1C45C71D80F585008CBCB8 /* TestLyftUITests */,
+				4F1C45A61D80F585008CBCB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F1C45A61D80F585008CBCB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F1C45A51D80F585008CBCB8 /* TestLyft.app */,
+				4F1C45B91D80F585008CBCB8 /* TestLyftTests.xctest */,
+				4F1C45C41D80F585008CBCB8 /* TestLyftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F1C45A71D80F585008CBCB8 /* TestLyft */ = {
+			isa = PBXGroup;
+			children = (
+				4F1C45A81D80F585008CBCB8 /* AppDelegate.swift */,
+				4F1C45AA1D80F585008CBCB8 /* ViewController.swift */,
+				4F1C45AC1D80F585008CBCB8 /* Main.storyboard */,
+				4F1C45AF1D80F585008CBCB8 /* Assets.xcassets */,
+				4F1C45B11D80F585008CBCB8 /* LaunchScreen.storyboard */,
+				4F1C45B41D80F585008CBCB8 /* Info.plist */,
+			);
+			path = TestLyft;
+			sourceTree = "<group>";
+		};
+		4F1C45BC1D80F585008CBCB8 /* TestLyftTests */ = {
+			isa = PBXGroup;
+			children = (
+				4F1C45BD1D80F585008CBCB8 /* TestLyftTests.swift */,
+				4F1C45BF1D80F585008CBCB8 /* Info.plist */,
+			);
+			path = TestLyftTests;
+			sourceTree = "<group>";
+		};
+		4F1C45C71D80F585008CBCB8 /* TestLyftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4F1C45C81D80F585008CBCB8 /* TestLyftUITests.swift */,
+				4F1C45CA1D80F585008CBCB8 /* Info.plist */,
+			);
+			path = TestLyftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F1C45A41D80F585008CBCB8 /* TestLyft */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F1C45CD1D80F585008CBCB8 /* Build configuration list for PBXNativeTarget "TestLyft" */;
+			buildPhases = (
+				4F1C45A11D80F585008CBCB8 /* Sources */,
+				4F1C45A21D80F585008CBCB8 /* Frameworks */,
+				4F1C45A31D80F585008CBCB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestLyft;
+			productName = TestLyft;
+			productReference = 4F1C45A51D80F585008CBCB8 /* TestLyft.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4F1C45B81D80F585008CBCB8 /* TestLyftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F1C45D01D80F585008CBCB8 /* Build configuration list for PBXNativeTarget "TestLyftTests" */;
+			buildPhases = (
+				4F1C45B51D80F585008CBCB8 /* Sources */,
+				4F1C45B61D80F585008CBCB8 /* Frameworks */,
+				4F1C45B71D80F585008CBCB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F1C45BB1D80F585008CBCB8 /* PBXTargetDependency */,
+			);
+			name = TestLyftTests;
+			productName = TestLyftTests;
+			productReference = 4F1C45B91D80F585008CBCB8 /* TestLyftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4F1C45C31D80F585008CBCB8 /* TestLyftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F1C45D31D80F585008CBCB8 /* Build configuration list for PBXNativeTarget "TestLyftUITests" */;
+			buildPhases = (
+				4F1C45C01D80F585008CBCB8 /* Sources */,
+				4F1C45C11D80F585008CBCB8 /* Frameworks */,
+				4F1C45C21D80F585008CBCB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F1C45C61D80F585008CBCB8 /* PBXTargetDependency */,
+			);
+			name = TestLyftUITests;
+			productName = TestLyftUITests;
+			productReference = 4F1C45C41D80F585008CBCB8 /* TestLyftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F1C459D1D80F585008CBCB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Michael Bishoff";
+				TargetAttributes = {
+					4F1C45A41D80F585008CBCB8 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					4F1C45B81D80F585008CBCB8 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4F1C45A41D80F585008CBCB8;
+					};
+					4F1C45C31D80F585008CBCB8 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4F1C45A41D80F585008CBCB8;
+					};
+				};
+			};
+			buildConfigurationList = 4F1C45A01D80F585008CBCB8 /* Build configuration list for PBXProject "TestLyft" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F1C459C1D80F585008CBCB8;
+			productRefGroup = 4F1C45A61D80F585008CBCB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F1C45A41D80F585008CBCB8 /* TestLyft */,
+				4F1C45B81D80F585008CBCB8 /* TestLyftTests */,
+				4F1C45C31D80F585008CBCB8 /* TestLyftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F1C45A31D80F585008CBCB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F1C45B31D80F585008CBCB8 /* LaunchScreen.storyboard in Resources */,
+				4F1C45B01D80F585008CBCB8 /* Assets.xcassets in Resources */,
+				4F1C45AE1D80F585008CBCB8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F1C45B71D80F585008CBCB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F1C45C21D80F585008CBCB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F1C45A11D80F585008CBCB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F1C45AB1D80F585008CBCB8 /* ViewController.swift in Sources */,
+				4F1C45A91D80F585008CBCB8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F1C45B51D80F585008CBCB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F1C45BE1D80F585008CBCB8 /* TestLyftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F1C45C01D80F585008CBCB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F1C45C91D80F585008CBCB8 /* TestLyftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F1C45BB1D80F585008CBCB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F1C45A41D80F585008CBCB8 /* TestLyft */;
+			targetProxy = 4F1C45BA1D80F585008CBCB8 /* PBXContainerItemProxy */;
+		};
+		4F1C45C61D80F585008CBCB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F1C45A41D80F585008CBCB8 /* TestLyft */;
+			targetProxy = 4F1C45C51D80F585008CBCB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4F1C45AC1D80F585008CBCB8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F1C45AD1D80F585008CBCB8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4F1C45B11D80F585008CBCB8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F1C45B21D80F585008CBCB8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F1C45CB1D80F585008CBCB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4F1C45CC1D80F585008CBCB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F1C45CE1D80F585008CBCB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestLyft/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TestLyft;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4F1C45CF1D80F585008CBCB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestLyft/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TestLyft;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4F1C45D11D80F585008CBCB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TestLyftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TestLyftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestLyft.app/TestLyft";
+			};
+			name = Debug;
+		};
+		4F1C45D21D80F585008CBCB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TestLyftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TestLyftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestLyft.app/TestLyft";
+			};
+			name = Release;
+		};
+		4F1C45D41D80F585008CBCB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TestLyftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TestLyftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TestLyft;
+			};
+			name = Debug;
+		};
+		4F1C45D51D80F585008CBCB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TestLyftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TestLyftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TestLyft;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F1C45A01D80F585008CBCB8 /* Build configuration list for PBXProject "TestLyft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F1C45CB1D80F585008CBCB8 /* Debug */,
+				4F1C45CC1D80F585008CBCB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F1C45CD1D80F585008CBCB8 /* Build configuration list for PBXNativeTarget "TestLyft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F1C45CE1D80F585008CBCB8 /* Debug */,
+				4F1C45CF1D80F585008CBCB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4F1C45D01D80F585008CBCB8 /* Build configuration list for PBXNativeTarget "TestLyftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F1C45D11D80F585008CBCB8 /* Debug */,
+				4F1C45D21D80F585008CBCB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4F1C45D31D80F585008CBCB8 /* Build configuration list for PBXNativeTarget "TestLyftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F1C45D41D80F585008CBCB8 /* Debug */,
+				4F1C45D51D80F585008CBCB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F1C459D1D80F585008CBCB8 /* Project object */;
+}
