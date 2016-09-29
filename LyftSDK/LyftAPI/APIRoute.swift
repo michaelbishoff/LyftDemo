@@ -1,4 +1,5 @@
 import Foundation
+import LyftModels
 
 /// API request routes, each case is a string with optional parameters built off the baseURL.
 enum APIRoute {

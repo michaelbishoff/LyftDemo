@@ -19,7 +19,7 @@ class MapViewController: UIViewController {
         super.viewDidLoad()
 
         // Check if we have permission to use location while app is in foreground
-        if CLLocationManager.locationServicesEnabled() && CLLocationManager.authorizationStatus() == .AuthorizedWhenInUse {
+        if CLLocationManager.locationServicesEnabled() && CLLocationManager.authorizationStatus() == .authorizedWhenInUse {
             // We already have permission:
             self.locationManager.startUpdatingLocation()
         } else {
@@ -31,28 +31,28 @@ class MapViewController: UIViewController {
         self.locationManager.delegate = self
     }
     
-    override func viewWillAppear(animated: Bool) {
+    override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         self.navigationController?.setNavigationBarHidden(true, animated: true)
     }
     
-    @IBAction func actionButtonPressed(sender: AnyObject) {
-        self.navigationController?.popViewControllerAnimated(true)
+    @IBAction func actionButtonPressed(_ sender: AnyObject) {
+        self.navigationController?.popViewController(animated: true)
     }
 }
 
 extension MapViewController: CLLocationManagerDelegate {
     
-    func locationManager(manager: CLLocationManager, didChangeAuthorizationStatus status: CLAuthorizationStatus) {
+    func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
         switch status {
-        case .AuthorizedWhenInUse:
+        case .authorizedWhenInUse:
             manager.startUpdatingLocation()
         default:
             print("Rejected location permission")
         }
     }
     
-    func locationManager(manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         if let location = locations.last {
             let viewRegion = MKCoordinateRegionMakeWithDistance(location.coordinate, 500, 500)
             let adjustedRegion = self.mapView.regionThatFits(viewRegion)

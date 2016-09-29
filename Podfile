@@ -16,7 +16,7 @@ target 'LyftAPI' do
 
     # Pods for TestLyft
 
-    # pod "ModelMapper", :git => "https://github.com/Lyft/mapper", :branch => "swift-3.0"
+    pod "ModelMapper", :git => "https://github.com/Lyft/mapper", :branch => "swift-3.0"
 end
 
 target 'LyftModels' do

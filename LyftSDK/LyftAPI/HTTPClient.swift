@@ -1,4 +1,5 @@
 import Foundation
+import Mapper
 
 /// An interface defining a value that can be requested as a URL.
 protocol Routable {
@@ -122,6 +123,6 @@ final class HTTPClient {
             request.setValue(value, forHTTPHeaderField: key)
         }
 
-        return lyftURLEncodedInURL(request: request, parameters: parameters).0
+        return lyftURLEncodedInURL(request, parameters: parameters).0
     }
 }

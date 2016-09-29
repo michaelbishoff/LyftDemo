@@ -1,4 +1,5 @@
 import CoreLocation
+import LyftModels
 
 private let kRequestTimeout = 20.0
 

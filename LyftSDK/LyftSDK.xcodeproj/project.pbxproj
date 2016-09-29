@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		36BEBB9C1D9DB75E00817551 /* Mapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36BEBB9B1D9DB75E00817551 /* Mapper.framework */; };
 		36BEBB9D1D9DB76300817551 /* LyftModels.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F5D272F1D9DB33E00B62FFF /* LyftModels.framework */; };
 		36BEBB9F1D9DB76900817551 /* Mapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36BEBB9E1D9DB76900817551 /* Mapper.framework */; };
 		36BEBBAB1D9DBEDE00817551 /* LyftConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36BEBBAA1D9DBEDE00817551 /* LyftConfiguration.swift */; };
@@ -69,7 +68,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				36BEBB9D1D9DB76300817551 /* LyftModels.framework in Frameworks */,
-				36BEBB9C1D9DB75E00817551 /* Mapper.framework in Frameworks */,
 				40D7E3AF4E62E3A8C2E895E1 /* Pods_LyftAPI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
