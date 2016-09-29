@@ -1,0 +1,12 @@
+PODS:
+  - ModelMapper (3.0.0)
+
+DEPENDENCIES:
+  - ModelMapper
+
+SPEC CHECKSUMS:
+  ModelMapper: fc94258e5d21bc2afea8cdc780ca0ca8c159a3ba
+
+PODFILE CHECKSUM: fcbf5f7355a46ff6fd5a2865f4e05c6ed62751ec
+
+COCOAPODS: 1.0.1

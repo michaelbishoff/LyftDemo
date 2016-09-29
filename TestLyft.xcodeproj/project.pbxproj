@@ -15,6 +15,9 @@
 		4F1C45BE1D80F585008CBCB8 /* TestLyftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1C45BD1D80F585008CBCB8 /* TestLyftTests.swift */; };
 		4F1C45C91D80F585008CBCB8 /* TestLyftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1C45C81D80F585008CBCB8 /* TestLyftUITests.swift */; };
 		4F1C45D71D80F89A008CBCB8 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1C45D61D80F89A008CBCB8 /* MapViewController.swift */; };
+		C561574E81563DF92B16B776 /* Pods_TestLyftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82A1EB32438F99C6C7A60DEB /* Pods_TestLyftUITests.framework */; };
+		CE83DED7A665E1E25EE5D1C4 /* Pods_TestLyft.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8DD76D3F8D52728933E0195 /* Pods_TestLyft.framework */; };
+		F0E57AE748D22AB2BAC2512F /* Pods_TestLyftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A9E5D16B7F0DEB0342264B /* Pods_TestLyftTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C702F4C991ABFE6D088311B /* Pods-TestLyftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestLyftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestLyftUITests/Pods-TestLyftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2C6500E4BE9A8DB308FFDBE1 /* Pods-TestLyft.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestLyft.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestLyft/Pods-TestLyft.debug.xcconfig"; sourceTree = "<group>"; };
+		46D7B11FA4F34929CDC1B3A4 /* Pods-TestLyftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestLyftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestLyftTests/Pods-TestLyftTests.release.xcconfig"; sourceTree = "<group>"; };
 		4F1C45A51D80F585008CBCB8 /* TestLyft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestLyft.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F1C45A81D80F585008CBCB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F1C45AA1D80F585008CBCB8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +55,12 @@
 		4F1C45C81D80F585008CBCB8 /* TestLyftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLyftUITests.swift; sourceTree = "<group>"; };
 		4F1C45CA1D80F585008CBCB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F1C45D61D80F89A008CBCB8 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		53A9E5D16B7F0DEB0342264B /* Pods_TestLyftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestLyftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82A1EB32438F99C6C7A60DEB /* Pods_TestLyftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestLyftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9657DE86A4E6BAB8769FCD80 /* Pods-TestLyftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestLyftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestLyftUITests/Pods-TestLyftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C81C271A76AE27DAB4A716BA /* Pods-TestLyftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestLyftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestLyftTests/Pods-TestLyftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CEEAA512A5A20C9F3AB3D33E /* Pods-TestLyft.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestLyft.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestLyft/Pods-TestLyft.release.xcconfig"; sourceTree = "<group>"; };
+		E8DD76D3F8D52728933E0195 /* Pods_TestLyft.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestLyft.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE83DED7A665E1E25EE5D1C4 /* Pods_TestLyft.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0E57AE748D22AB2BAC2512F /* Pods_TestLyftTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C561574E81563DF92B16B776 /* Pods_TestLyftUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				4F1C45BC1D80F585008CBCB8 /* TestLyftTests */,
 				4F1C45C71D80F585008CBCB8 /* TestLyftUITests */,
 				4F1C45A61D80F585008CBCB8 /* Products */,
+				82BBF2B521A5A3A9E526A9FA /* Pods */,
+				955EACE532EAE8C207460DE8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +145,29 @@
 			path = TestLyftUITests;
 			sourceTree = "<group>";
 		};
+		82BBF2B521A5A3A9E526A9FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C6500E4BE9A8DB308FFDBE1 /* Pods-TestLyft.debug.xcconfig */,
+				CEEAA512A5A20C9F3AB3D33E /* Pods-TestLyft.release.xcconfig */,
+				C81C271A76AE27DAB4A716BA /* Pods-TestLyftTests.debug.xcconfig */,
+				46D7B11FA4F34929CDC1B3A4 /* Pods-TestLyftTests.release.xcconfig */,
+				9657DE86A4E6BAB8769FCD80 /* Pods-TestLyftUITests.debug.xcconfig */,
+				0C702F4C991ABFE6D088311B /* Pods-TestLyftUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		955EACE532EAE8C207460DE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8DD76D3F8D52728933E0195 /* Pods_TestLyft.framework */,
+				53A9E5D16B7F0DEB0342264B /* Pods_TestLyftTests.framework */,
+				82A1EB32438F99C6C7A60DEB /* Pods_TestLyftUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4F1C45CD1D80F585008CBCB8 /* Build configuration list for PBXNativeTarget "TestLyft" */;
 			buildPhases = (
-				4F1C45A11D80F585008CBCB8 /* Sources */,
+				9ACB2452ADFCAFDD75B32CD9 /* [CP] Check Pods Manifest.lock */,
 				4F1C45A21D80F585008CBCB8 /* Frameworks */,
+				4F1C45A11D80F585008CBCB8 /* Sources */,
 				4F1C45A31D80F585008CBCB8 /* Resources */,
+				83B142FB9EC1188C121D5A8E /* [CP] Embed Pods Frameworks */,
+				95DFBC67CDB86015C0BB189C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4F1C45D01D80F585008CBCB8 /* Build configuration list for PBXNativeTarget "TestLyftTests" */;
 			buildPhases = (
+				43A827FD5D522EB768117ECC /* [CP] Check Pods Manifest.lock */,
 				4F1C45B51D80F585008CBCB8 /* Sources */,
 				4F1C45B61D80F585008CBCB8 /* Frameworks */,
 				4F1C45B71D80F585008CBCB8 /* Resources */,
+				9D84D4B7812CB1875E61572A /* [CP] Embed Pods Frameworks */,
+				B54A6A4E4ABD7EE7EB0724E3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4F1C45D31D80F585008CBCB8 /* Build configuration list for PBXNativeTarget "TestLyftUITests" */;
 			buildPhases = (
+				8F29D1A2F2E670F1B80EE59C /* [CP] Check Pods Manifest.lock */,
 				4F1C45C01D80F585008CBCB8 /* Sources */,
 				4F1C45C11D80F585008CBCB8 /* Frameworks */,
 				4F1C45C21D80F585008CBCB8 /* Resources */,
+				A72B1BA573326668F3B847E4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +301,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		43A827FD5D522EB768117ECC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		83B142FB9EC1188C121D5A8E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestLyft/Pods-TestLyft-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F29D1A2F2E670F1B80EE59C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		95DFBC67CDB86015C0BB189C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestLyft/Pods-TestLyft-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9ACB2452ADFCAFDD75B32CD9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9D84D4B7812CB1875E61572A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestLyftTests/Pods-TestLyftTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A72B1BA573326668F3B847E4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestLyftUITests/Pods-TestLyftUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B54A6A4E4ABD7EE7EB0724E3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestLyftTests/Pods-TestLyftTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4F1C45A11D80F585008CBCB8 /* Sources */ = {
@@ -401,6 +572,7 @@
 		};
 		4F1C45CE1D80F585008CBCB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C6500E4BE9A8DB308FFDBE1 /* Pods-TestLyft.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestLyft/Info.plist;
@@ -412,6 +584,7 @@
 		};
 		4F1C45CF1D80F585008CBCB8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEEAA512A5A20C9F3AB3D33E /* Pods-TestLyft.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestLyft/Info.plist;
@@ -423,6 +596,7 @@
 		};
 		4F1C45D11D80F585008CBCB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C81C271A76AE27DAB4A716BA /* Pods-TestLyftTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = TestLyftTests/Info.plist;
@@ -435,6 +609,7 @@
 		};
 		4F1C45D21D80F585008CBCB8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46D7B11FA4F34929CDC1B3A4 /* Pods-TestLyftTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = TestLyftTests/Info.plist;
@@ -447,6 +622,7 @@
 		};
 		4F1C45D41D80F585008CBCB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9657DE86A4E6BAB8769FCD80 /* Pods-TestLyftUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = TestLyftUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -458,6 +634,7 @@
 		};
 		4F1C45D51D80F585008CBCB8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C702F4C991ABFE6D088311B /* Pods-TestLyftUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = TestLyftUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -486,6 +663,7 @@
 				4F1C45CF1D80F585008CBCB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F1C45D01D80F585008CBCB8 /* Build configuration list for PBXNativeTarget "TestLyftTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +672,7 @@
 				4F1C45D21D80F585008CBCB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F1C45D31D80F585008CBCB8 /* Build configuration list for PBXNativeTarget "TestLyftUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +681,7 @@
 				4F1C45D51D80F585008CBCB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
