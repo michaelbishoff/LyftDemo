@@ -1,12 +1,22 @@
 PODS:
-  - ModelMapper (3.0.0)
+  - ModelMapper (5.0.0-beta.2)
 
 DEPENDENCIES:
-  - ModelMapper
+  - ModelMapper (from `https://github.com/Lyft/mapper`, branch `swift-3.0`)
+
+EXTERNAL SOURCES:
+  ModelMapper:
+    :branch: swift-3.0
+    :git: https://github.com/Lyft/mapper
+
+CHECKOUT OPTIONS:
+  ModelMapper:
+    :commit: eead7f57eacbcda5257925e3ceb99cd73a611fac
+    :git: https://github.com/Lyft/mapper
 
 SPEC CHECKSUMS:
-  ModelMapper: fc94258e5d21bc2afea8cdc780ca0ca8c159a3ba
+  ModelMapper: b306e689e231331896d447a36a54643c5da0bacd
 
-PODFILE CHECKSUM: fcbf5f7355a46ff6fd5a2865f4e05c6ed62751ec
+PODFILE CHECKSUM: 06f4b3de8e067948a33c67ca6c084ce47d1b93be
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.1.0.rc.2

@@ -1,5 +1,4 @@
 import Foundation
-import Mapper
 
 /// An interface defining a value that can be requested as a URL.
 protocol Routable {

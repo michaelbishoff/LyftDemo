@@ -36,7 +36,7 @@ extension NearbyDriver: Mappable {
     }
 }
 
-private func driversByKindFromObject(object: Any) throws -> [RideKind: [NearbyDriver]] {
+private func driversByKindFromObject(_ object: Any) throws -> [RideKind: [NearbyDriver]] {
     guard let objects = object as? [NSDictionary] else {
         throw MapperError.convertibleError(value: object, type: [NSDictionary].self)
     }

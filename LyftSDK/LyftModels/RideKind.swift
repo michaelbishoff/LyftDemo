@@ -5,7 +5,7 @@ public struct RideKind: RawRepresentable, Hashable {
 
     public var hashValue: Int { return self.rawValue.hashValue }
 
-    private init(_ rawValue: String) {
+    fileprivate init(_ rawValue: String) {
         self.rawValue = rawValue
     }
 

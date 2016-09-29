@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0800"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "32C2D8C765383F91D9D6A13735A2A16B"
-               BuildableName = "Pods_TestLyftTests.framework"
-               BlueprintName = "Pods-TestLyftTests"
+               BlueprintIdentifier = "284C02F2C19B6169D939CA45A71136BC"
+               BuildableName = "Pods_LyftAPI.framework"
+               BlueprintName = "Pods-LyftAPI"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "32C2D8C765383F91D9D6A13735A2A16B"
-            BuildableName = "Pods_TestLyftTests.framework"
-            BlueprintName = "Pods-TestLyftTests"
+            BlueprintIdentifier = "284C02F2C19B6169D939CA45A71136BC"
+            BuildableName = "Pods_LyftAPI.framework"
+            BlueprintName = "Pods-LyftAPI"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -60,15 +60,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "32C2D8C765383F91D9D6A13735A2A16B"
-            BuildableName = "Pods_TestLyftTests.framework"
-            BlueprintName = "Pods-TestLyftTests"
-            ReferencedContainer = "container:Pods.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

@@ -1,4 +1,4 @@
-import Foundation
+import UIKit
 import CoreLocation
 
 /// Collection of deep links into the main Lyft application
@@ -11,7 +11,7 @@ public struct LyftDeepLink {
     /// - parameter couponCode              A coupon code to be applied to the user
     ///
     /// - returns:  true if the deeplink was successfully launched
-    @discardableResult public static func requestRide(kind: RideKind,
+    @discardableResult public static func requestRide(_ kind: RideKind,
                                                       from pickup: CLLocationCoordinate2D? = nil,
                                                       to destination: CLLocationCoordinate2D? = nil,
                                                       couponCode: String? = nil) -> Bool
@@ -31,10 +31,10 @@ public struct LyftDeepLink {
         parameters["partner"] = LyftConfiguration.developer?.clientId
         parameters["credits"] = couponCode
 
-        return self.launch(action: "ridetype", parameters: parameters)
+        return self.launch("ridetype", parameters: parameters)
     }
 
-    private static func launch(action: String, parameters: [String: String]?) -> Bool {
+    fileprivate static func launch(_ action: String, parameters: [String: String]?) -> Bool {
         var requestURLComponents = URLComponents()
         requestURLComponents.scheme = "lyft"
         requestURLComponents.host = action

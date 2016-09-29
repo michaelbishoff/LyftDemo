@@ -7,31 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		08D66E0C4E19527289A9AB6FEF77A176 /* Pods-TestLyftTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1287B8144259DF348E5FF68768E1C43 /* Pods-TestLyftTests-dummy.m */; };
-		1A16A4F271072B936E21B4C76DB48315 /* Pods-TestLyftUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9437DFBBC9761676716842005D29589 /* Pods-TestLyftUITests-dummy.m */; };
+		047E920B28ECCEE83DD5630D8B9E9CBE /* Pods-TestLyft-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED87ACE231F7C5C3C1BABE0CE7F25B60 /* Pods-TestLyft-dummy.m */; };
+		1091798C38EF673B6A768C988C4A380A /* Pods-LyftAPI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB1D4AB4D443BCA89996583EA095214F /* Pods-LyftAPI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1FA9D1CF3E490DA46983D825220D9946 /* DefaultConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0E61586104F4B1BE92496651C9FDB0 /* DefaultConvertible.swift */; };
+		32F87E3F2A033CFCAEE547DB14D06214 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		362B571A85349B18841997C1FA5F9D9C /* MapperError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D38F4DF2DA3AF3A51D58FA4E7000CF6 /* MapperError.swift */; };
 		4238F551CF42B97295D3FE8318600500 /* Mappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482956375BF4A3958855C2F246FFE53B /* Mappable.swift */; };
+		54CE64CF0208BF782250E2A032AE16CE /* Pods-LyftModels-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F4CD3F54143B2ED5EA81F607B3687EC /* Pods-LyftModels-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		559F978D830FF47B17A2A598E8F37350 /* Convertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1C4D650540BD6D945150E8DBC3FEED /* Convertible.swift */; };
-		5C219355132B2E3A0F3EE22234B3626C /* Pods-TestLyftUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AE976069D6552DFD8E0A6764173A665 /* Pods-TestLyftUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FA932D0C3F9CB5E146E8A911225B660 /* Pods-LyftAPI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 276C60E95E26001F732BB12CB615B1AE /* Pods-LyftAPI-dummy.m */; };
+		6FE90B3229427EB1E2488A98E1E8A542 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		708CA3991B4179A066A0CDF17BACAD6C /* Pods-TestLyft-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 43DDB9D39034E46645E25CABF0BDF8E7 /* Pods-TestLyft-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		838958F6AD77FB80EAE76DFC215A37DD /* Transform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED7D2A09AC4814A21A170E8F10A1799 /* Transform.swift */; };
 		884EDA8083290585DE587E3F275A8886 /* Transform+Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1FC6B70C052D620F6F28E160BAD173 /* Transform+Dictionary.swift */; };
 		8D62A515BE95479DA7163A21A04F85B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		993DE0A6960F306254EA27356F9F9FE8 /* ModelMapper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27B97CB776F4D94682F002F260545D23 /* ModelMapper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9BA9E8D5844D9503157801C7E160274F /* ModelMapper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD82B1305F27CD36DD16AAC03B5E585 /* ModelMapper-dummy.m */; };
-		AAEB089F09A267D1B807A511AE2BD377 /* Pods-TestLyft-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F72A0B1B32EEB13922D2D0346A20EE50 /* Pods-TestLyft-dummy.m */; };
+		A60661223BB7C7CFFBA5F996258041B7 /* Pods-LyftModels-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9EAE70050C28DA25B846926F2B3FF92 /* Pods-LyftModels-dummy.m */; };
 		BE22F4B447F824295E49B1A1F381EB2E /* NSURL+Convertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CAA161ED14741E10DFD30850B44BA50 /* NSURL+Convertible.swift */; };
-		CF8E74DF1645DBE9B0FD7566674D36E3 /* Pods-TestLyft-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D0D7C6AE236247A7222B9E2318EA1EE /* Pods-TestLyft-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E294CA8C6E6374DBE128405D228EBCE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		D489189B30B0398A536E119E44B066C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		EABE5395FB5AC4101006767377E07432 /* NSDictionary+Safety.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFB4A284C867566F1A9127436F30CE0 /* NSDictionary+Safety.swift */; };
-		EC6FEF112AA21A51198E87958F738F89 /* Pods-TestLyftTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA058E53ECEFAE5A5C05CF2513C75502 /* Pods-TestLyftTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F387E88E0293AE981F11A7A24BD59DC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		FBA22BD960270BDC05776B70643D01AD /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A8336AB51B503A991113A86208C4F9 /* Mapper.swift */; };
-		FF2E914F0AA65F31B71A1A745F8B5018 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A38128AC23B74D0AFDC045B8D437F364 /* PBXContainerItemProxy */ = {
+		EE9DB40FB2E40A6CB83728E5DBA82777 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -41,81 +41,71 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		027F5EDA0362354762C6DD6FFFCC8981 /* Mapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Mapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B279A5D38FFA4EFDC2A918B2D7F6CA1 /* Pods-TestLyftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestLyftTests.release.xcconfig"; sourceTree = "<group>"; };
 		0B6B4773B765C4EDBDBA0A6893C5ABC0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0ED7D2A09AC4814A21A170E8F10A1799 /* Transform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Transform.swift; path = Sources/Transform.swift; sourceTree = "<group>"; };
-		1053E9B11012640DF2D2006455299F3B /* Pods-TestLyftUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestLyftUITests-resources.sh"; sourceTree = "<group>"; };
-		19A081D74E1E0158156D6CB36EBA441F /* Pods-TestLyft-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestLyft-acknowledgements.plist"; sourceTree = "<group>"; };
-		1B247BCB5B86CC3F8A14481B4FCFA8B2 /* Pods-TestLyftTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestLyftTests-frameworks.sh"; sourceTree = "<group>"; };
-		1C39C9CF3BF642ADEC86D5FF06D7FF28 /* Pods-TestLyft-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestLyft-resources.sh"; sourceTree = "<group>"; };
-		24B544545C648FD13B713296DB70EEAE /* Pods-TestLyft.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestLyft.release.xcconfig"; sourceTree = "<group>"; };
+		0F37DDFF55E3F02A13F4DF599A67C97D /* Pods-LyftAPI-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LyftAPI-acknowledgements.plist"; sourceTree = "<group>"; };
+		1E449C5E4653A814094F552D90FD37E4 /* Pods-LyftModels.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LyftModels.modulemap"; sourceTree = "<group>"; };
+		276C60E95E26001F732BB12CB615B1AE /* Pods-LyftAPI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LyftAPI-dummy.m"; sourceTree = "<group>"; };
 		27B97CB776F4D94682F002F260545D23 /* ModelMapper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModelMapper-umbrella.h"; sourceTree = "<group>"; };
-		3181184BE46CFD24113475F52BD8183D /* Pods-TestLyftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestLyftUITests.release.xcconfig"; sourceTree = "<group>"; };
-		37392D2E8022A609DDD5747431C2598F /* Pods_TestLyft.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestLyft.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		37538F2676B0BBF0EBDE37228A009BBB /* Pods-TestLyftTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TestLyftTests.modulemap"; sourceTree = "<group>"; };
-		3AE976069D6552DFD8E0A6764173A665 /* Pods-TestLyftUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestLyftUITests-umbrella.h"; sourceTree = "<group>"; };
-		3CD5898965A63CD6F20FC5362F10BA1C /* Pods-TestLyft.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TestLyft.modulemap"; sourceTree = "<group>"; };
-		3D0D7C6AE236247A7222B9E2318EA1EE /* Pods-TestLyft-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestLyft-umbrella.h"; sourceTree = "<group>"; };
-		4393E2ADC231AC362F0AA220A8A1ECEA /* Pods-TestLyft-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestLyft-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2FFE74605011DC62C408B413692CEAE2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42214819BEB76596C31DA9502235C4F0 /* Pods-LyftModels-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LyftModels-acknowledgements.markdown"; sourceTree = "<group>"; };
+		43DDB9D39034E46645E25CABF0BDF8E7 /* Pods-TestLyft-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestLyft-umbrella.h"; sourceTree = "<group>"; };
+		460DC18AD3A098D2BC4AC18E0E9A2A20 /* Pods-LyftAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LyftAPI.release.xcconfig"; sourceTree = "<group>"; };
 		482956375BF4A3958855C2F246FFE53B /* Mappable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Mappable.swift; path = Sources/Mappable.swift; sourceTree = "<group>"; };
 		4CFB4A284C867566F1A9127436F30CE0 /* NSDictionary+Safety.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSDictionary+Safety.swift"; path = "Sources/NSDictionary+Safety.swift"; sourceTree = "<group>"; };
-		5BCAE7D22738183BA973BEFCAFE5AB1E /* Pods-TestLyftUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestLyftUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		61EA5EF4819D8F4BCAE95258631287FA /* Pods-TestLyftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestLyftUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		6A7D3523258A87A6C97DFA0EE63611E9 /* Pods_TestLyftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestLyftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FB1A744551B75691B0A196B56A0EAC0 /* Pods-LyftAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LyftAPI.debug.xcconfig"; sourceTree = "<group>"; };
+		5969066878D6F03AA501309787A3372A /* Pods-LyftAPI-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LyftAPI-resources.sh"; sourceTree = "<group>"; };
+		65B5317E9AFB97C0B2E4DD05002E0A0A /* Pods-LyftAPI-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LyftAPI-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6E1C4D650540BD6D945150E8DBC3FEED /* Convertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Convertible.swift; path = Sources/Convertible.swift; sourceTree = "<group>"; };
-		72AF9C4CEC2904C285DC476AFBFC7284 /* Pods-TestLyftUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestLyftUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		73A8336AB51B503A991113A86208C4F9 /* Mapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Mapper.swift; path = Sources/Mapper.swift; sourceTree = "<group>"; };
-		76EFB5CC4991D20D8812EE24860ADD2F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78C3A40BE6FC9B21113AEC303EDDB3F9 /* Pods-LyftModels.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LyftModels.debug.xcconfig"; sourceTree = "<group>"; };
 		7B1FC6B70C052D620F6F28E160BAD173 /* Transform+Dictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Transform+Dictionary.swift"; path = "Sources/Transform+Dictionary.swift"; sourceTree = "<group>"; };
-		7BD5FD575509625426469EFD5C5CF341 /* Pods-TestLyftTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestLyftTests-resources.sh"; sourceTree = "<group>"; };
+		7BB3C6F92CF636E5980A308C53AC78D8 /* Pods_TestLyft.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestLyft.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D34551F2E48C83ACCCDAC19A9EE8A32 /* Mapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Mapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D38F4DF2DA3AF3A51D58FA4E7000CF6 /* MapperError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MapperError.swift; path = Sources/MapperError.swift; sourceTree = "<group>"; };
-		88E2CC0F6F544DCA6272A220D8DFB01A /* Pods-TestLyftUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestLyftUITests-frameworks.sh"; sourceTree = "<group>"; };
+		8119FA10E835940DD263BB123D0DEDAA /* Pods-LyftModels-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LyftModels-resources.sh"; sourceTree = "<group>"; };
+		81377762BB5DDA2EC9B20A2662A2B705 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84C1F2FEF902D59BFC69B82F5F98A9B1 /* Pods-TestLyft.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestLyft.release.xcconfig"; sourceTree = "<group>"; };
+		8945F37322744BFE862F24AA97B7EF62 /* Pods-LyftAPI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LyftAPI.modulemap"; sourceTree = "<group>"; };
 		8A0E61586104F4B1BE92496651C9FDB0 /* DefaultConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultConvertible.swift; path = Sources/DefaultConvertible.swift; sourceTree = "<group>"; };
 		8DA7C57898494A9E5BDA6520A76A62B4 /* ModelMapper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ModelMapper.modulemap; sourceTree = "<group>"; };
-		9177236AAB9EB4E634A18A5B415F3BDB /* Pods-TestLyftTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestLyftTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		96ABA108A2CCAEA96E2F51266175A3E5 /* Pods-TestLyft.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestLyft.debug.xcconfig"; sourceTree = "<group>"; };
+		9C10CBEC2EA7FC056BB12F8FBD28A943 /* Pods-TestLyft-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestLyft-frameworks.sh"; sourceTree = "<group>"; };
 		9CAA161ED14741E10DFD30850B44BA50 /* NSURL+Convertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSURL+Convertible.swift"; path = "Sources/NSURL+Convertible.swift"; sourceTree = "<group>"; };
-		9CE5827781DC100CAAC1132C20E5B031 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A1287B8144259DF348E5FF68768E1C43 /* Pods-TestLyftTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestLyftTests-dummy.m"; sourceTree = "<group>"; };
-		AF6CFFB627A989B8CAB55E05BE146E83 /* Pods_TestLyftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestLyftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EC9030F1DB93249B75760FEB975FC97 /* Pods_LyftModels.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LyftModels.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F4CD3F54143B2ED5EA81F607B3687EC /* Pods-LyftModels-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LyftModels-umbrella.h"; sourceTree = "<group>"; };
+		A9EAE70050C28DA25B846926F2B3FF92 /* Pods-LyftModels-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LyftModels-dummy.m"; sourceTree = "<group>"; };
+		AE10E5E2EBDBAD612E3952A77EABBB3A /* Pods-TestLyft-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestLyft-acknowledgements.plist"; sourceTree = "<group>"; };
 		B50CB6CB0285E8AB38E7F298FA19683C /* ModelMapper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModelMapper.xcconfig; sourceTree = "<group>"; };
+		B6B918C1510E5E3E11F85DED8DF5DC33 /* Pods-TestLyft-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestLyft-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B79340B50001CEC88CA312A7541E64BC /* ModelMapper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModelMapper-prefix.pch"; sourceTree = "<group>"; };
-		CDDE9FEA47606EEAC8B3F6EFC913D023 /* Pods-TestLyftTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestLyftTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B9A83149CDD873205608252B7463D921 /* Pods-TestLyft.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TestLyft.modulemap"; sourceTree = "<group>"; };
+		C0EDE90F083CD0226F7220DE5CD44D26 /* Pods-TestLyft-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestLyft-resources.sh"; sourceTree = "<group>"; };
+		C6890558B258BB911CB9FABFC3A359DF /* Pods-LyftModels-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LyftModels-acknowledgements.plist"; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D37097902A30C21C287B31F031DA90B7 /* Pods-TestLyft-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestLyft-frameworks.sh"; sourceTree = "<group>"; };
+		D96400841269BCBAE7272F9C57581DAA /* Pods-TestLyft.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestLyft.debug.xcconfig"; sourceTree = "<group>"; };
 		DBD82B1305F27CD36DD16AAC03B5E585 /* ModelMapper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModelMapper-dummy.m"; sourceTree = "<group>"; };
-		E17AE8691E46A95ACE415354D878B0F6 /* Pods-TestLyftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestLyftTests.debug.xcconfig"; sourceTree = "<group>"; };
-		E9437DFBBC9761676716842005D29589 /* Pods-TestLyftUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestLyftUITests-dummy.m"; sourceTree = "<group>"; };
-		EA058E53ECEFAE5A5C05CF2513C75502 /* Pods-TestLyftTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestLyftTests-umbrella.h"; sourceTree = "<group>"; };
-		F1A54EDFDFA320A40C063A06A21CBCBE /* Pods-TestLyftUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TestLyftUITests.modulemap"; sourceTree = "<group>"; };
-		F72A0B1B32EEB13922D2D0346A20EE50 /* Pods-TestLyft-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestLyft-dummy.m"; sourceTree = "<group>"; };
-		FF4EEE8BE69BB88AF2EE4E49571FD1AA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3081893FD02EF470A3805D0F65AE468 /* Pods_LyftAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LyftAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E55F8B865CC13D503B51D5F18028C1D7 /* Pods-LyftModels.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LyftModels.release.xcconfig"; sourceTree = "<group>"; };
+		E628EDBBD7778D12CA4569271D87A2B1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED87ACE231F7C5C3C1BABE0CE7F25B60 /* Pods-TestLyft-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestLyft-dummy.m"; sourceTree = "<group>"; };
+		FB1D4AB4D443BCA89996583EA095214F /* Pods-LyftAPI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LyftAPI-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		90B238852E1119390308C84AA232F16F /* Frameworks */ = {
+		0354E7F4B0E161C2C935373CB2C64BFD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E294CA8C6E6374DBE128405D228EBCE6 /* Foundation.framework in Frameworks */,
+				32F87E3F2A033CFCAEE547DB14D06214 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AACBBC14B92E57197E5B80307037C40C /* Frameworks */ = {
+		46C43E1050C1E74EE296F252E2AABEAB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F387E88E0293AE981F11A7A24BD59DC8 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C69D8017EDF2BB2B017523E8448179F7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FF2E914F0AA65F31B71A1A745F8B5018 /* Foundation.framework in Frameworks */,
+				D489189B30B0398A536E119E44B066C3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,6 +114,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D62A515BE95479DA7163A21A04F85B8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7A3DE95B4E9C00AEC2900175189C0D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FE90B3229427EB1E2488A98E1E8A542 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,52 +150,6 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		1B79A057BE200F47AF6940F87F5A3578 /* Pods-TestLyft */ = {
-			isa = PBXGroup;
-			children = (
-				FF4EEE8BE69BB88AF2EE4E49571FD1AA /* Info.plist */,
-				3CD5898965A63CD6F20FC5362F10BA1C /* Pods-TestLyft.modulemap */,
-				4393E2ADC231AC362F0AA220A8A1ECEA /* Pods-TestLyft-acknowledgements.markdown */,
-				19A081D74E1E0158156D6CB36EBA441F /* Pods-TestLyft-acknowledgements.plist */,
-				F72A0B1B32EEB13922D2D0346A20EE50 /* Pods-TestLyft-dummy.m */,
-				D37097902A30C21C287B31F031DA90B7 /* Pods-TestLyft-frameworks.sh */,
-				1C39C9CF3BF642ADEC86D5FF06D7FF28 /* Pods-TestLyft-resources.sh */,
-				3D0D7C6AE236247A7222B9E2318EA1EE /* Pods-TestLyft-umbrella.h */,
-				96ABA108A2CCAEA96E2F51266175A3E5 /* Pods-TestLyft.debug.xcconfig */,
-				24B544545C648FD13B713296DB70EEAE /* Pods-TestLyft.release.xcconfig */,
-			);
-			name = "Pods-TestLyft";
-			path = "Target Support Files/Pods-TestLyft";
-			sourceTree = "<group>";
-		};
-		268A07C50433F230671C0667035D0935 /* Pods-TestLyftTests */ = {
-			isa = PBXGroup;
-			children = (
-				76EFB5CC4991D20D8812EE24860ADD2F /* Info.plist */,
-				37538F2676B0BBF0EBDE37228A009BBB /* Pods-TestLyftTests.modulemap */,
-				CDDE9FEA47606EEAC8B3F6EFC913D023 /* Pods-TestLyftTests-acknowledgements.markdown */,
-				9177236AAB9EB4E634A18A5B415F3BDB /* Pods-TestLyftTests-acknowledgements.plist */,
-				A1287B8144259DF348E5FF68768E1C43 /* Pods-TestLyftTests-dummy.m */,
-				1B247BCB5B86CC3F8A14481B4FCFA8B2 /* Pods-TestLyftTests-frameworks.sh */,
-				7BD5FD575509625426469EFD5C5CF341 /* Pods-TestLyftTests-resources.sh */,
-				EA058E53ECEFAE5A5C05CF2513C75502 /* Pods-TestLyftTests-umbrella.h */,
-				E17AE8691E46A95ACE415354D878B0F6 /* Pods-TestLyftTests.debug.xcconfig */,
-				0B279A5D38FFA4EFDC2A918B2D7F6CA1 /* Pods-TestLyftTests.release.xcconfig */,
-			);
-			name = "Pods-TestLyftTests";
-			path = "Target Support Files/Pods-TestLyftTests";
-			sourceTree = "<group>";
-		};
-		27AA053589E9EF7E71048E174599C63E /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1B79A057BE200F47AF6940F87F5A3578 /* Pods-TestLyft */,
-				268A07C50433F230671C0667035D0935 /* Pods-TestLyftTests */,
-				7431D4C6520DAA0944C9D13E2CE20A51 /* Pods-TestLyftUITests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -206,22 +158,21 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		7431D4C6520DAA0944C9D13E2CE20A51 /* Pods-TestLyftUITests */ = {
+		51AF6B1E24095F66D15CBA09072D095F /* Pods-LyftAPI */ = {
 			isa = PBXGroup;
 			children = (
-				9CE5827781DC100CAAC1132C20E5B031 /* Info.plist */,
-				F1A54EDFDFA320A40C063A06A21CBCBE /* Pods-TestLyftUITests.modulemap */,
-				5BCAE7D22738183BA973BEFCAFE5AB1E /* Pods-TestLyftUITests-acknowledgements.markdown */,
-				72AF9C4CEC2904C285DC476AFBFC7284 /* Pods-TestLyftUITests-acknowledgements.plist */,
-				E9437DFBBC9761676716842005D29589 /* Pods-TestLyftUITests-dummy.m */,
-				88E2CC0F6F544DCA6272A220D8DFB01A /* Pods-TestLyftUITests-frameworks.sh */,
-				1053E9B11012640DF2D2006455299F3B /* Pods-TestLyftUITests-resources.sh */,
-				3AE976069D6552DFD8E0A6764173A665 /* Pods-TestLyftUITests-umbrella.h */,
-				61EA5EF4819D8F4BCAE95258631287FA /* Pods-TestLyftUITests.debug.xcconfig */,
-				3181184BE46CFD24113475F52BD8183D /* Pods-TestLyftUITests.release.xcconfig */,
+				E628EDBBD7778D12CA4569271D87A2B1 /* Info.plist */,
+				8945F37322744BFE862F24AA97B7EF62 /* Pods-LyftAPI.modulemap */,
+				65B5317E9AFB97C0B2E4DD05002E0A0A /* Pods-LyftAPI-acknowledgements.markdown */,
+				0F37DDFF55E3F02A13F4DF599A67C97D /* Pods-LyftAPI-acknowledgements.plist */,
+				276C60E95E26001F732BB12CB615B1AE /* Pods-LyftAPI-dummy.m */,
+				5969066878D6F03AA501309787A3372A /* Pods-LyftAPI-resources.sh */,
+				FB1D4AB4D443BCA89996583EA095214F /* Pods-LyftAPI-umbrella.h */,
+				4FB1A744551B75691B0A196B56A0EAC0 /* Pods-LyftAPI.debug.xcconfig */,
+				460DC18AD3A098D2BC4AC18E0E9A2A20 /* Pods-LyftAPI.release.xcconfig */,
 			);
-			name = "Pods-TestLyftUITests";
-			path = "Target Support Files/Pods-TestLyftUITests";
+			name = "Pods-LyftAPI";
+			path = "Target Support Files/Pods-LyftAPI";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -230,8 +181,8 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				17B9367BF44491E5C59F28C94A2D611E /* Pods */,
-				A8B332F5E867A9AABDCAF43731EB9552 /* Products */,
-				27AA053589E9EF7E71048E174599C63E /* Targets Support Files */,
+				956BD2B2381A731AD4331161A7261772 /* Products */,
+				BCB882EF7909DAB4013C002F3029EAD8 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -252,15 +203,32 @@
 			path = ModelMapper;
 			sourceTree = "<group>";
 		};
-		A8B332F5E867A9AABDCAF43731EB9552 /* Products */ = {
+		956BD2B2381A731AD4331161A7261772 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				027F5EDA0362354762C6DD6FFFCC8981 /* Mapper.framework */,
-				37392D2E8022A609DDD5747431C2598F /* Pods_TestLyft.framework */,
-				6A7D3523258A87A6C97DFA0EE63611E9 /* Pods_TestLyftTests.framework */,
-				AF6CFFB627A989B8CAB55E05BE146E83 /* Pods_TestLyftUITests.framework */,
+				7D34551F2E48C83ACCCDAC19A9EE8A32 /* Mapper.framework */,
+				E3081893FD02EF470A3805D0F65AE468 /* Pods_LyftAPI.framework */,
+				9EC9030F1DB93249B75760FEB975FC97 /* Pods_LyftModels.framework */,
+				7BB3C6F92CF636E5980A308C53AC78D8 /* Pods_TestLyft.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		A13504F606E8E45DCF4E509F77BAC44A /* Pods-LyftModels */ = {
+			isa = PBXGroup;
+			children = (
+				2FFE74605011DC62C408B413692CEAE2 /* Info.plist */,
+				1E449C5E4653A814094F552D90FD37E4 /* Pods-LyftModels.modulemap */,
+				42214819BEB76596C31DA9502235C4F0 /* Pods-LyftModels-acknowledgements.markdown */,
+				C6890558B258BB911CB9FABFC3A359DF /* Pods-LyftModels-acknowledgements.plist */,
+				A9EAE70050C28DA25B846926F2B3FF92 /* Pods-LyftModels-dummy.m */,
+				8119FA10E835940DD263BB123D0DEDAA /* Pods-LyftModels-resources.sh */,
+				9F4CD3F54143B2ED5EA81F607B3687EC /* Pods-LyftModels-umbrella.h */,
+				78C3A40BE6FC9B21113AEC303EDDB3F9 /* Pods-LyftModels.debug.xcconfig */,
+				E55F8B865CC13D503B51D5F18028C1D7 /* Pods-LyftModels.release.xcconfig */,
+			);
+			name = "Pods-LyftModels";
+			path = "Target Support Files/Pods-LyftModels";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -271,14 +239,42 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BCB882EF7909DAB4013C002F3029EAD8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				51AF6B1E24095F66D15CBA09072D095F /* Pods-LyftAPI */,
+				A13504F606E8E45DCF4E509F77BAC44A /* Pods-LyftModels */,
+				F5B17A187565B8E6117CADEC65120371 /* Pods-TestLyft */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F5B17A187565B8E6117CADEC65120371 /* Pods-TestLyft */ = {
+			isa = PBXGroup;
+			children = (
+				81377762BB5DDA2EC9B20A2662A2B705 /* Info.plist */,
+				B9A83149CDD873205608252B7463D921 /* Pods-TestLyft.modulemap */,
+				B6B918C1510E5E3E11F85DED8DF5DC33 /* Pods-TestLyft-acknowledgements.markdown */,
+				AE10E5E2EBDBAD612E3952A77EABBB3A /* Pods-TestLyft-acknowledgements.plist */,
+				ED87ACE231F7C5C3C1BABE0CE7F25B60 /* Pods-TestLyft-dummy.m */,
+				9C10CBEC2EA7FC056BB12F8FBD28A943 /* Pods-TestLyft-frameworks.sh */,
+				C0EDE90F083CD0226F7220DE5CD44D26 /* Pods-TestLyft-resources.sh */,
+				43DDB9D39034E46645E25CABF0BDF8E7 /* Pods-TestLyft-umbrella.h */,
+				D96400841269BCBAE7272F9C57581DAA /* Pods-TestLyft.debug.xcconfig */,
+				84C1F2FEF902D59BFC69B82F5F98A9B1 /* Pods-TestLyft.release.xcconfig */,
+			);
+			name = "Pods-TestLyft";
+			path = "Target Support Files/Pods-TestLyft";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		6374455BDFE8F918A69FF4B93CF7B963 /* Headers */ = {
+		54F1C2960C13A58BF1F6AC3694295E24 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC6FEF112AA21A51198E87958F738F89 /* Pods-TestLyftTests-umbrella.h in Headers */,
+				1091798C38EF673B6A768C988C4A380A /* Pods-LyftAPI-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,57 +286,58 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		82D67B9A55D77C93663135AF1A104AC9 /* Headers */ = {
+		A47CFD4F6058D1EBEF498C0918FE0933 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C219355132B2E3A0F3EE22234B3626C /* Pods-TestLyftUITests-umbrella.h in Headers */,
+				708CA3991B4179A066A0CDF17BACAD6C /* Pods-TestLyft-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A00C1AD4E9825B004FD06A198E9A53FA /* Headers */ = {
+		BD52A2F1FF88C0A0A4796650069104AA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF8E74DF1645DBE9B0FD7566674D36E3 /* Pods-TestLyft-umbrella.h in Headers */,
+				54CE64CF0208BF782250E2A032AE16CE /* Pods-LyftModels-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		17D0F8B12FC860124A1829EFCEA04CF3 /* Pods-TestLyftUITests */ = {
+		284C02F2C19B6169D939CA45A71136BC /* Pods-LyftAPI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 19131F1A3499BE5A4BA7E0DD97194493 /* Build configuration list for PBXNativeTarget "Pods-TestLyftUITests" */;
+			buildConfigurationList = 44748582406499BA96C6D7E21ECF545D /* Build configuration list for PBXNativeTarget "Pods-LyftAPI" */;
 			buildPhases = (
-				C3C30B2FF58678C9F97F2A5C5D092F4F /* Sources */,
-				C69D8017EDF2BB2B017523E8448179F7 /* Frameworks */,
-				82D67B9A55D77C93663135AF1A104AC9 /* Headers */,
+				6185907F8F4C883A58BEC3559BE1856A /* Sources */,
+				F7A3DE95B4E9C00AEC2900175189C0D9 /* Frameworks */,
+				54F1C2960C13A58BF1F6AC3694295E24 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-TestLyftUITests";
-			productName = "Pods-TestLyftUITests";
-			productReference = AF6CFFB627A989B8CAB55E05BE146E83 /* Pods_TestLyftUITests.framework */;
+			name = "Pods-LyftAPI";
+			productName = "Pods-LyftAPI";
+			productReference = E3081893FD02EF470A3805D0F65AE468 /* Pods_LyftAPI.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		32C2D8C765383F91D9D6A13735A2A16B /* Pods-TestLyftTests */ = {
+		696093F2292007C95B140694B46486FF /* Pods-LyftModels */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 80D83CE243EDCF65D174E95B58B30E7B /* Build configuration list for PBXNativeTarget "Pods-TestLyftTests" */;
+			buildConfigurationList = C4A67261B1B4FC4D14CB8311D86D1BFE /* Build configuration list for PBXNativeTarget "Pods-LyftModels" */;
 			buildPhases = (
-				FD27092D1AFE6A3F85542B8344FE2490 /* Sources */,
-				90B238852E1119390308C84AA232F16F /* Frameworks */,
-				6374455BDFE8F918A69FF4B93CF7B963 /* Headers */,
+				02E4A7CB64AE8C8E467987CD9B39C428 /* Sources */,
+				46C43E1050C1E74EE296F252E2AABEAB /* Frameworks */,
+				BD52A2F1FF88C0A0A4796650069104AA /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				8D19766E5E640AE5099DA3198B372A26 /* PBXTargetDependency */,
 			);
-			name = "Pods-TestLyftTests";
-			productName = "Pods-TestLyftTests";
-			productReference = 6A7D3523258A87A6C97DFA0EE63611E9 /* Pods_TestLyftTests.framework */;
+			name = "Pods-LyftModels";
+			productName = "Pods-LyftModels";
+			productReference = 9EC9030F1DB93249B75760FEB975FC97 /* Pods_LyftModels.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		CA14FC28396A2328190AD7474F24B197 /* ModelMapper */ = {
@@ -357,25 +354,24 @@
 			);
 			name = ModelMapper;
 			productName = ModelMapper;
-			productReference = 027F5EDA0362354762C6DD6FFFCC8981 /* Mapper.framework */;
+			productReference = 7D34551F2E48C83ACCCDAC19A9EE8A32 /* Mapper.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		EEA09A34E2C431DD3F2D19E84687F1A6 /* Pods-TestLyft */ = {
+		FCDC5EABDC39D5FEA1B2916E91DF54F9 /* Pods-TestLyft */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4A873C3EA69748162C86990E7DDD5621 /* Build configuration list for PBXNativeTarget "Pods-TestLyft" */;
+			buildConfigurationList = 4371044CDB2495A1FBFC0DB8AAA87EA4 /* Build configuration list for PBXNativeTarget "Pods-TestLyft" */;
 			buildPhases = (
-				4B073AF8D47B81A81BC5E87CFCBD0AF8 /* Sources */,
-				AACBBC14B92E57197E5B80307037C40C /* Frameworks */,
-				A00C1AD4E9825B004FD06A198E9A53FA /* Headers */,
+				898F714FAC7C28727F433BAAB2951005 /* Sources */,
+				0354E7F4B0E161C2C935373CB2C64BFD /* Frameworks */,
+				A47CFD4F6058D1EBEF498C0918FE0933 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CEEE568741CF5CA1866DCF2C1AD02028 /* PBXTargetDependency */,
 			);
 			name = "Pods-TestLyft";
 			productName = "Pods-TestLyft";
-			productReference = 37392D2E8022A609DDD5747431C2598F /* Pods_TestLyft.framework */;
+			productReference = 7BB3C6F92CF636E5980A308C53AC78D8 /* Pods_TestLyft.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -395,24 +391,24 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = A8B332F5E867A9AABDCAF43731EB9552 /* Products */;
+			productRefGroup = 956BD2B2381A731AD4331161A7261772 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				CA14FC28396A2328190AD7474F24B197 /* ModelMapper */,
-				EEA09A34E2C431DD3F2D19E84687F1A6 /* Pods-TestLyft */,
-				32C2D8C765383F91D9D6A13735A2A16B /* Pods-TestLyftTests */,
-				17D0F8B12FC860124A1829EFCEA04CF3 /* Pods-TestLyftUITests */,
+				284C02F2C19B6169D939CA45A71136BC /* Pods-LyftAPI */,
+				696093F2292007C95B140694B46486FF /* Pods-LyftModels */,
+				FCDC5EABDC39D5FEA1B2916E91DF54F9 /* Pods-TestLyft */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4B073AF8D47B81A81BC5E87CFCBD0AF8 /* Sources */ = {
+		02E4A7CB64AE8C8E467987CD9B39C428 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAEB089F09A267D1B807A511AE2BD377 /* Pods-TestLyft-dummy.m in Sources */,
+				A60661223BB7C7CFFBA5F996258041B7 /* Pods-LyftModels-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,41 +429,43 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C3C30B2FF58678C9F97F2A5C5D092F4F /* Sources */ = {
+		6185907F8F4C883A58BEC3559BE1856A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A16A4F271072B936E21B4C76DB48315 /* Pods-TestLyftUITests-dummy.m in Sources */,
+				5FA932D0C3F9CB5E146E8A911225B660 /* Pods-LyftAPI-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FD27092D1AFE6A3F85542B8344FE2490 /* Sources */ = {
+		898F714FAC7C28727F433BAAB2951005 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08D66E0C4E19527289A9AB6FEF77A176 /* Pods-TestLyftTests-dummy.m in Sources */,
+				047E920B28ECCEE83DD5630D8B9E9CBE /* Pods-TestLyft-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CEEE568741CF5CA1866DCF2C1AD02028 /* PBXTargetDependency */ = {
+		8D19766E5E640AE5099DA3198B372A26 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ModelMapper;
 			target = CA14FC28396A2328190AD7474F24B197 /* ModelMapper */;
-			targetProxy = A38128AC23B74D0AFDC045B8D437F364 /* PBXContainerItemProxy */;
+			targetProxy = EE9DB40FB2E40A6CB83728E5DBA82777 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0A676A9078170A654B7C64097B6C5DA8 /* Debug */ = {
+		12564B03FFE40321418163CA9E72762A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 96ABA108A2CCAEA96E2F51266175A3E5 /* Pods-TestLyft.debug.xcconfig */;
+			baseConfigurationReference = 84C1F2FEF902D59BFC69B82F5F98A9B1 /* Pods-TestLyft.release.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -480,7 +478,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-TestLyft/Pods-TestLyft.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -488,43 +486,13 @@
 				PRODUCT_NAME = Pods_TestLyft;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		332962DD779A7DEE10161042BDFF9C14 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B50CB6CB0285E8AB38E7F298FA19683C /* ModelMapper.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ModelMapper/ModelMapper-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ModelMapper/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ModelMapper/ModelMapper.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Mapper;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+		13E96A645A77DAD1FD4F541F18F5DDBF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -542,77 +510,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		5531401CEC6700848166E01F536E61EB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3181184BE46CFD24113475F52BD8183D /* Pods-TestLyftUITests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-TestLyftUITests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TestLyftUITests/Pods-TestLyftUITests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_TestLyftUITests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -632,51 +530,21 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		85AE402B3D8505498EDF4FEE98B2BC59 /* Debug */ = {
+		34BF4C74E2BC88D98199909C46AFDFA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 61EA5EF4819D8F4BCAE95258631287FA /* Pods-TestLyftUITests.debug.xcconfig */;
+			baseConfigurationReference = D96400841269BCBAE7272F9C57581DAA /* Pods-TestLyft.debug.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-TestLyftUITests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TestLyftUITests/Pods-TestLyftUITests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_TestLyftUITests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		868EB35714526E525C6189F2094BB1EC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 24B544545C648FD13B713296DB70EEAE /* Pods-TestLyft.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -689,7 +557,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-TestLyft/Pods-TestLyft.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -701,13 +569,90 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
+			name = Debug;
+		};
+		6D24286ED14EE94997429F5617F00E9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E55F8B865CC13D503B51D5F18028C1D7 /* Pods-LyftModels.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LyftModels/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LyftModels/Pods-LyftModels.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LyftModels;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
 			name = Release;
 		};
-		D5DC719DE0347B641DB48AE961B4C90C /* Debug */ = {
+		862AF3139CD84E18D34FAF2F43CD0DA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96F6BBEE243649E02F414E67D0E6CA8D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B50CB6CB0285E8AB38E7F298FA19683C /* ModelMapper.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
@@ -727,17 +672,20 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		DAA1C3296BC21048DB9D851A569E6C61 /* Debug */ = {
+		A31D371402EB7C67F876883759ABBDD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E17AE8691E46A95ACE415354D878B0F6 /* Pods-TestLyftTests.debug.xcconfig */;
+			baseConfigurationReference = 4FB1A744551B75691B0A196B56A0EAC0 /* Pods-LyftAPI.debug.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
@@ -746,18 +694,18 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-TestLyftTests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-LyftAPI/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TestLyftTests/Pods-TestLyftTests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-LyftAPI/Pods-LyftAPI.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_TestLyftTests;
+				PRODUCT_NAME = Pods_LyftAPI;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -766,11 +714,13 @@
 			};
 			name = Debug;
 		};
-		EF936AC8F6C303820B9466164BB6FCE8 /* Release */ = {
+		AD96C4BB71186F50197F4BB58CAAAE39 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B279A5D38FFA4EFDC2A918B2D7F6CA1 /* Pods-TestLyftTests.release.xcconfig */;
+			baseConfigurationReference = 460DC18AD3A098D2BC4AC18E0E9A2A20 /* Pods-LyftAPI.release.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
@@ -779,20 +729,88 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-TestLyftTests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-LyftAPI/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TestLyftTests/Pods-TestLyftTests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-LyftAPI/Pods-LyftAPI.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_TestLyftTests;
+				PRODUCT_NAME = Pods_LyftAPI;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E45A3ACF6B1726DAF12DE2C0C39C3A77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78C3A40BE6FC9B21113AEC303EDDB3F9 /* Pods-LyftModels.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LyftModels/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LyftModels/Pods-LyftModels.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LyftModels;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F8ACFAFB45F81BC0C31EF8AD16261CB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B50CB6CB0285E8AB38E7F298FA19683C /* ModelMapper.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ModelMapper/ModelMapper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ModelMapper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ModelMapper/ModelMapper.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Mapper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -802,38 +820,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		19131F1A3499BE5A4BA7E0DD97194493 /* Build configuration list for PBXNativeTarget "Pods-TestLyftUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				85AE402B3D8505498EDF4FEE98B2BC59 /* Debug */,
-				5531401CEC6700848166E01F536E61EB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
-				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+				13E96A645A77DAD1FD4F541F18F5DDBF /* Debug */,
+				862AF3139CD84E18D34FAF2F43CD0DA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4A873C3EA69748162C86990E7DDD5621 /* Build configuration list for PBXNativeTarget "Pods-TestLyft" */ = {
+		4371044CDB2495A1FBFC0DB8AAA87EA4 /* Build configuration list for PBXNativeTarget "Pods-TestLyft" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0A676A9078170A654B7C64097B6C5DA8 /* Debug */,
-				868EB35714526E525C6189F2094BB1EC /* Release */,
+				34BF4C74E2BC88D98199909C46AFDFA6 /* Debug */,
+				12564B03FFE40321418163CA9E72762A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		80D83CE243EDCF65D174E95B58B30E7B /* Build configuration list for PBXNativeTarget "Pods-TestLyftTests" */ = {
+		44748582406499BA96C6D7E21ECF545D /* Build configuration list for PBXNativeTarget "Pods-LyftAPI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DAA1C3296BC21048DB9D851A569E6C61 /* Debug */,
-				EF936AC8F6C303820B9466164BB6FCE8 /* Release */,
+				A31D371402EB7C67F876883759ABBDD2 /* Debug */,
+				AD96C4BB71186F50197F4BB58CAAAE39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4A67261B1B4FC4D14CB8311D86D1BFE /* Build configuration list for PBXNativeTarget "Pods-LyftModels" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E45A3ACF6B1726DAF12DE2C0C39C3A77 /* Debug */,
+				6D24286ED14EE94997429F5617F00E9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -841,8 +859,8 @@
 		E8703B0EF1168C2237B138BFFEDF1762 /* Build configuration list for PBXNativeTarget "ModelMapper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D5DC719DE0347B641DB48AE961B4C90C /* Debug */,
-				332962DD779A7DEE10161042BDFF9C14 /* Release */,
+				96F6BBEE243649E02F414E67D0E6CA8D /* Debug */,
+				F8ACFAFB45F81BC0C31EF8AD16261CB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
