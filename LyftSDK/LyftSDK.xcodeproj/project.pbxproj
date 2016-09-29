@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36AA5EBC1D9DC2A400085320 /* LyftConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AA5EBB1D9DC2A400085320 /* LyftConfiguration.swift */; };
 		36BEBB9D1D9DB76300817551 /* LyftModels.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F5D272F1D9DB33E00B62FFF /* LyftModels.framework */; };
 		36BEBB9F1D9DB76900817551 /* Mapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36BEBB9E1D9DB76900817551 /* Mapper.framework */; };
-		36BEBBAB1D9DBEDE00817551 /* LyftConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36BEBBAA1D9DBEDE00817551 /* LyftConfiguration.swift */; };
 		40D7E3AF4E62E3A8C2E895E1 /* Pods_LyftAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D72FB17C7BA0BAE91B104AA /* Pods_LyftAPI.framework */; };
 		4F5D274D1D9DB3B300B62FFF /* APIRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5D27461D9DB3B300B62FFF /* APIRoute.swift */; };
 		4F5D274E1D9DB3B300B62FFF /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5D27471D9DB3B300B62FFF /* HTTPClient.swift */; };
@@ -34,9 +34,9 @@
 		0B06A4D33E53704E4385CF47 /* Pods_LyftModels.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LyftModels.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B3FCE351E9630AAD5883381 /* Pods-LyftAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LyftAPI.release.xcconfig"; path = "../Pods/Target Support Files/Pods-LyftAPI/Pods-LyftAPI.release.xcconfig"; sourceTree = "<group>"; };
 		2D72FB17C7BA0BAE91B104AA /* Pods_LyftAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LyftAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36AA5EBB1D9DC2A400085320 /* LyftConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LyftConfiguration.swift; sourceTree = "<group>"; };
 		36BEBB9B1D9DB75E00817551 /* Mapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mapper.framework; path = "/Users/loganshire/src/LyftDemo/Pods/../build/Debug-iphoneos/ModelMapper/Mapper.framework"; sourceTree = "<absolute>"; };
 		36BEBB9E1D9DB76900817551 /* Mapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mapper.framework; path = "/Users/loganshire/src/LyftDemo/Pods/../build/Debug-iphoneos/ModelMapper/Mapper.framework"; sourceTree = "<absolute>"; };
-		36BEBBAA1D9DBEDE00817551 /* LyftConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LyftConfiguration.swift; sourceTree = "<group>"; };
 		3EEF0BF40A9AD95DFCE93FAF /* Pods-LyftAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LyftAPI.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-LyftAPI/Pods-LyftAPI.debug.xcconfig"; sourceTree = "<group>"; };
 		4F5D27131D9DB33800B62FFF /* LyftAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LyftAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F5D27171D9DB33800B62FFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -129,6 +129,7 @@
 		4F5D27141D9DB33800B62FFF /* LyftAPI */ = {
 			isa = PBXGroup;
 			children = (
+				36AA5EBB1D9DC2A400085320 /* LyftConfiguration.swift */,
 				4F5D27461D9DB3B300B62FFF /* APIRoute.swift */,
 				4F5D27471D9DB3B300B62FFF /* HTTPClient.swift */,
 				4F5D27481D9DB3B300B62FFF /* LyftAPI.swift */,
@@ -143,7 +144,6 @@
 		4F5D27301D9DB33E00B62FFF /* LyftModels */ = {
 			isa = PBXGroup;
 			children = (
-				36BEBBAA1D9DBEDE00817551 /* LyftConfiguration.swift */,
 				4F5D27541D9DB3BE00B62FFF /* CLLocationCoordinate2D+Convertible.swift */,
 				4F5D27551D9DB3BE00B62FFF /* Cost.swift */,
 				4F5D27561D9DB3BE00B62FFF /* DeepLink.swift */,
@@ -347,6 +347,7 @@
 				4F5D274F1D9DB3B300B62FFF /* LyftAPI.swift in Sources */,
 				4F5D274E1D9DB3B300B62FFF /* HTTPClient.swift in Sources */,
 				4F5D27531D9DB3B300B62FFF /* Result.swift in Sources */,
+				36AA5EBC1D9DC2A400085320 /* LyftConfiguration.swift in Sources */,
 				4F5D274D1D9DB3B300B62FFF /* APIRoute.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -362,7 +363,6 @@
 				4F5D27621D9DB3BE00B62FFF /* Money.swift in Sources */,
 				4F5D27661D9DB3BE00B62FFF /* RideType.swift in Sources */,
 				4F5D275F1D9DB3BE00B62FFF /* Cost.swift in Sources */,
-				36BEBBAB1D9DBEDE00817551 /* LyftConfiguration.swift in Sources */,
 				4F5D27611D9DB3BE00B62FFF /* ETA.swift in Sources */,
 				4F5D275E1D9DB3BE00B62FFF /* CLLocationCoordinate2D+Convertible.swift in Sources */,
 				4F5D27671D9DB3BE00B62FFF /* Transform+Money.swift in Sources */,
