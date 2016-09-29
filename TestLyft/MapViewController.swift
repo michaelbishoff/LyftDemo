@@ -1,14 +1,8 @@
-//
-//  MapViewController.swift
-//  TestLyft
-//
-//  Created by Michael Bishoff on 9/7/16.
-//  Copyright © 2016 Michael Bishoff. All rights reserved.
-//
-
 import UIKit
 import MapKit
 import CoreLocation
+import LyftAPI
+import LyftModels
 
 class MapViewController: UIViewController {
 
@@ -37,7 +31,7 @@ class MapViewController: UIViewController {
     }
     
     @IBAction func actionButtonPressed(_ sender: AnyObject) {
-        self.navigationController?.popViewController(animated: true)
+        _ = self.navigationController?.popViewController(animated: true)
     }
 }
 
@@ -57,6 +51,14 @@ extension MapViewController: CLLocationManagerDelegate {
             let viewRegion = MKCoordinateRegionMakeWithDistance(location.coordinate, 500, 500)
             let adjustedRegion = self.mapView.regionThatFits(viewRegion)
             self.mapView.setRegion(adjustedRegion, animated: true)
+            LyftAPI.rideTypes(at: location.coordinate) { (result: Result<[RideType], LyftAPIError>) in
+                switch result {
+                case .success(let rideTypes):
+                    print(rideTypes)
+                case .failure(let error):
+                    print(error)
+                }
+            }
         }
     }
 }

@@ -1,13 +1,5 @@
-//
-//  AppDelegate.swift
-//  TestLyft
-//
-//  Created by Michael Bishoff on 9/7/16.
-//  Copyright © 2016 Michael Bishoff. All rights reserved.
-//
 import LyftAPI
 import LyftModels
-import CoreLocation
 import UIKit
 
 @UIApplicationMain
@@ -18,7 +10,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-//        LyftConfiguration.developer = (
+        LyftConfiguration.developer = (token: token, clientId: secret)
         return true
     }
 
