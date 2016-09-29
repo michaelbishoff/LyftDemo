@@ -6,17 +6,23 @@ target 'TestLyft' do
   use_frameworks!
 
   # Pods for TestLyft
-  
-  pod "ModelMapper"
 
-  target 'TestLyftTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
+end
 
-  target 'TestLyftUITests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
+target 'LyftAPI' do
+    # Comment this line if you're not using Swift and don't want to use dynamic frameworks
+    use_frameworks!
 
+    # Pods for TestLyft
+
+    pod "ModelMapper"
+end
+
+target 'LyftModels' do
+    # Comment this line if you're not using Swift and don't want to use dynamic frameworks
+    use_frameworks!
+
+    # Pods for TestLyft
+
+    pod "ModelMapper"
 end

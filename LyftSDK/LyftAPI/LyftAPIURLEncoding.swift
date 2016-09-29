@@ -18,7 +18,7 @@ private func components(forKey key: String, value: Any) -> [URLQueryItem] {
 ///
 /// - returns: A tuple containing the constructed request and the error that occurred during parameter
 ///            encoding, if any.
-func lyftURLEncodedInURL(request: URLRequest, parameters: [String: Any]?) -> (URLRequest, NSError?) {
+func lyftURLEncodedInURL(_ request: URLRequest, parameters: [String: Any]?) -> (URLRequest, NSError?) {
     guard let parameters = parameters else {
         return (request, nil)
     }

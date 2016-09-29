@@ -7,12 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4F5D27161D9DB33800B62FFF /* LyftAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F5D27151D9DB33800B62FFF /* LyftAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4F5D271D1D9DB33800B62FFF /* LyftAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F5D27131D9DB33800B62FFF /* LyftAPI.framework */; };
-		4F5D27221D9DB33800B62FFF /* LyftAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5D27211D9DB33800B62FFF /* LyftAPITests.swift */; };
-		4F5D27321D9DB33E00B62FFF /* LyftModels.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F5D27311D9DB33E00B62FFF /* LyftModels.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4F5D27391D9DB33F00B62FFF /* LyftModels.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F5D272F1D9DB33E00B62FFF /* LyftModels.framework */; };
-		4F5D273E1D9DB33F00B62FFF /* LyftModelsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5D273D1D9DB33F00B62FFF /* LyftModelsTests.swift */; };
 		4F5D274D1D9DB3B300B62FFF /* APIRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5D27461D9DB3B300B62FFF /* APIRoute.swift */; };
 		4F5D274E1D9DB3B300B62FFF /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5D27471D9DB3B300B62FFF /* HTTPClient.swift */; };
 		4F5D274F1D9DB3B300B62FFF /* LyftAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5D27481D9DB3B300B62FFF /* LyftAPI.swift */; };
@@ -32,36 +26,11 @@
 		4F5D27671D9DB3BE00B62FFF /* Transform+Money.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5D275D1D9DB3BE00B62FFF /* Transform+Money.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		4F5D271E1D9DB33800B62FFF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4F5D26E21D9DB2DA00B62FFF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4F5D27121D9DB33800B62FFF;
-			remoteInfo = LyftAPI;
-		};
-		4F5D273A1D9DB33F00B62FFF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4F5D26E21D9DB2DA00B62FFF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4F5D272E1D9DB33E00B62FFF;
-			remoteInfo = LyftModels;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		4F5D27131D9DB33800B62FFF /* LyftAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LyftAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F5D27151D9DB33800B62FFF /* LyftAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LyftAPI.h; sourceTree = "<group>"; };
 		4F5D27171D9DB33800B62FFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4F5D271C1D9DB33800B62FFF /* LyftAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LyftAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F5D27211D9DB33800B62FFF /* LyftAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyftAPITests.swift; sourceTree = "<group>"; };
-		4F5D27231D9DB33800B62FFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F5D272F1D9DB33E00B62FFF /* LyftModels.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LyftModels.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F5D27311D9DB33E00B62FFF /* LyftModels.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LyftModels.h; sourceTree = "<group>"; };
 		4F5D27331D9DB33E00B62FFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4F5D27381D9DB33F00B62FFF /* LyftModelsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LyftModelsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F5D273D1D9DB33F00B62FFF /* LyftModelsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyftModelsTests.swift; sourceTree = "<group>"; };
-		4F5D273F1D9DB33F00B62FFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F5D27461D9DB3B300B62FFF /* APIRoute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRoute.swift; sourceTree = "<group>"; };
 		4F5D27471D9DB3B300B62FFF /* HTTPClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 		4F5D27481D9DB3B300B62FFF /* LyftAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LyftAPI.swift; sourceTree = "<group>"; };
@@ -89,26 +58,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F5D27191D9DB33800B62FFF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4F5D271D1D9DB33800B62FFF /* LyftAPI.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4F5D272B1D9DB33E00B62FFF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4F5D27351D9DB33F00B62FFF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4F5D27391D9DB33F00B62FFF /* LyftModels.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,9 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				4F5D27141D9DB33800B62FFF /* LyftAPI */,
-				4F5D27201D9DB33800B62FFF /* LyftAPITests */,
 				4F5D27301D9DB33E00B62FFF /* LyftModels */,
-				4F5D273C1D9DB33F00B62FFF /* LyftModelsTests */,
 				4F5D26EC1D9DB2DA00B62FFF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				4F5D27131D9DB33800B62FFF /* LyftAPI.framework */,
-				4F5D271C1D9DB33800B62FFF /* LyftAPITests.xctest */,
 				4F5D272F1D9DB33E00B62FFF /* LyftModels.framework */,
-				4F5D27381D9DB33F00B62FFF /* LyftModelsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,7 +89,6 @@
 		4F5D27141D9DB33800B62FFF /* LyftAPI */ = {
 			isa = PBXGroup;
 			children = (
-				4F5D27151D9DB33800B62FFF /* LyftAPI.h */,
 				4F5D27461D9DB3B300B62FFF /* APIRoute.swift */,
 				4F5D27471D9DB3B300B62FFF /* HTTPClient.swift */,
 				4F5D27481D9DB3B300B62FFF /* LyftAPI.swift */,
@@ -151,15 +99,6 @@
 				4F5D27171D9DB33800B62FFF /* Info.plist */,
 			);
 			path = LyftAPI;
-			sourceTree = "<group>";
-		};
-		4F5D27201D9DB33800B62FFF /* LyftAPITests */ = {
-			isa = PBXGroup;
-			children = (
-				4F5D27211D9DB33800B62FFF /* LyftAPITests.swift */,
-				4F5D27231D9DB33800B62FFF /* Info.plist */,
-			);
-			path = LyftAPITests;
 			sourceTree = "<group>";
 		};
 		4F5D27301D9DB33E00B62FFF /* LyftModels */ = {
@@ -175,19 +114,9 @@
 				4F5D275B1D9DB3BE00B62FFF /* RideKind.swift */,
 				4F5D275C1D9DB3BE00B62FFF /* RideType.swift */,
 				4F5D275D1D9DB3BE00B62FFF /* Transform+Money.swift */,
-				4F5D27311D9DB33E00B62FFF /* LyftModels.h */,
 				4F5D27331D9DB33E00B62FFF /* Info.plist */,
 			);
 			path = LyftModels;
-			sourceTree = "<group>";
-		};
-		4F5D273C1D9DB33F00B62FFF /* LyftModelsTests */ = {
-			isa = PBXGroup;
-			children = (
-				4F5D273D1D9DB33F00B62FFF /* LyftModelsTests.swift */,
-				4F5D273F1D9DB33F00B62FFF /* Info.plist */,
-			);
-			path = LyftModelsTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,8 +126,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F5D27161D9DB33800B62FFF /* LyftAPI.h in Headers */,
-				4F5D27321D9DB33E00B62FFF /* LyftModels.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,24 +157,6 @@
 			productReference = 4F5D27131D9DB33800B62FFF /* LyftAPI.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		4F5D271B1D9DB33800B62FFF /* LyftAPITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4F5D27291D9DB33800B62FFF /* Build configuration list for PBXNativeTarget "LyftAPITests" */;
-			buildPhases = (
-				4F5D27181D9DB33800B62FFF /* Sources */,
-				4F5D27191D9DB33800B62FFF /* Frameworks */,
-				4F5D271A1D9DB33800B62FFF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4F5D271F1D9DB33800B62FFF /* PBXTargetDependency */,
-			);
-			name = LyftAPITests;
-			productName = LyftAPITests;
-			productReference = 4F5D271C1D9DB33800B62FFF /* LyftAPITests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		4F5D272E1D9DB33E00B62FFF /* LyftModels */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4F5D27401D9DB33F00B62FFF /* Build configuration list for PBXNativeTarget "LyftModels" */;
@@ -266,24 +175,6 @@
 			productReference = 4F5D272F1D9DB33E00B62FFF /* LyftModels.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		4F5D27371D9DB33F00B62FFF /* LyftModelsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4F5D27431D9DB33F00B62FFF /* Build configuration list for PBXNativeTarget "LyftModelsTests" */;
-			buildPhases = (
-				4F5D27341D9DB33F00B62FFF /* Sources */,
-				4F5D27351D9DB33F00B62FFF /* Frameworks */,
-				4F5D27361D9DB33F00B62FFF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4F5D273B1D9DB33F00B62FFF /* PBXTargetDependency */,
-			);
-			name = LyftModelsTests;
-			productName = LyftModelsTests;
-			productReference = 4F5D27381D9DB33F00B62FFF /* LyftModelsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -296,14 +187,9 @@
 				TargetAttributes = {
 					4F5D27121D9DB33800B62FFF = {
 						CreatedOnToolsVersion = 7.3.1;
-					};
-					4F5D271B1D9DB33800B62FFF = {
-						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 					};
 					4F5D272E1D9DB33E00B62FFF = {
-						CreatedOnToolsVersion = 7.3.1;
-					};
-					4F5D27371D9DB33F00B62FFF = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
@@ -321,9 +207,7 @@
 			projectRoot = "";
 			targets = (
 				4F5D27121D9DB33800B62FFF /* LyftAPI */,
-				4F5D271B1D9DB33800B62FFF /* LyftAPITests */,
 				4F5D272E1D9DB33E00B62FFF /* LyftModels */,
-				4F5D27371D9DB33F00B62FFF /* LyftModelsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -336,21 +220,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F5D271A1D9DB33800B62FFF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4F5D272D1D9DB33E00B62FFF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4F5D27361D9DB33F00B62FFF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -374,14 +244,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F5D27181D9DB33800B62FFF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4F5D27221D9DB33800B62FFF /* LyftAPITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4F5D272A1D9DB33E00B62FFF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -399,28 +261,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F5D27341D9DB33F00B62FFF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4F5D273E1D9DB33F00B62FFF /* LyftModelsTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		4F5D271F1D9DB33800B62FFF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4F5D27121D9DB33800B62FFF /* LyftAPI */;
-			targetProxy = 4F5D271E1D9DB33800B62FFF /* PBXContainerItemProxy */;
-		};
-		4F5D273B1D9DB33F00B62FFF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4F5D272E1D9DB33E00B62FFF /* LyftModels */;
-			targetProxy = 4F5D273A1D9DB33F00B62FFF /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		4F5D26FD1D9DB2DA00B62FFF /* Debug */ = {
@@ -529,6 +370,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -546,26 +388,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.LyftAPI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		4F5D27261D9DB33800B62FFF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = LyftAPITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.LyftAPITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		4F5D27271D9DB33800B62FFF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = LyftAPITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.LyftAPITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -604,26 +427,6 @@
 			};
 			name = Release;
 		};
-		4F5D27441D9DB33F00B62FFF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = LyftModelsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.LyftModelsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		4F5D27451D9DB33F00B62FFF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = LyftModelsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.LyftModelsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -643,14 +446,7 @@
 				4F5D27251D9DB33800B62FFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		4F5D27291D9DB33800B62FFF /* Build configuration list for PBXNativeTarget "LyftAPITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4F5D27261D9DB33800B62FFF /* Debug */,
-				4F5D27271D9DB33800B62FFF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F5D27401D9DB33F00B62FFF /* Build configuration list for PBXNativeTarget "LyftModels" */ = {
 			isa = XCConfigurationList;
@@ -659,14 +455,7 @@
 				4F5D27421D9DB33F00B62FFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		4F5D27431D9DB33F00B62FFF /* Build configuration list for PBXNativeTarget "LyftModelsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4F5D27441D9DB33F00B62FFF /* Debug */,
-				4F5D27451D9DB33F00B62FFF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

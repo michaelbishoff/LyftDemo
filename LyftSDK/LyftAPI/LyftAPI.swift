@@ -27,7 +27,7 @@ extension LyftAPI {
             "lng": position.longitude,
         ]
 
-        self.client.request(.GET, APIRoute.ETA, parameters: parameters) { responseObject, status in
+        self.client.request(.GET, APIRoute.eta, parameters: parameters) { responseObject, status in
             let response = responseObject as? NSDictionary
             let error = LyftAPIError(response: response, status: status) ?? .UnknownError
             let estimates = response?["eta_estimates"] as? [NSDictionary]
@@ -48,7 +48,7 @@ extension LyftAPI {
             "lng": position.longitude,
         ]
 
-        self.client.request(.GET, APIRoute.RideTypes, parameters: parameters) { responseObject, status in
+        self.client.request(.GET, APIRoute.rideTypes, parameters: parameters) { responseObject, status in
             let response = responseObject as? NSDictionary
             let error = LyftAPIError(response: response, status: status) ?? .UnknownError
             let rideTypes = response?["ride_types"] as? [NSDictionary]
@@ -75,7 +75,7 @@ extension LyftAPI {
         parameters["end_lng"] = destination?.longitude
         parameters["ride_type"] = rideKind?.rawValue
 
-        self.client.request(.GET, APIRoute.CostEstimates, parameters: parameters) { responseObject, status in
+        self.client.request(.GET, APIRoute.costEstimates, parameters: parameters) { responseObject, status in
             let response = responseObject as? NSDictionary
             let error = LyftAPIError(response: response, status: status) ?? .UnknownError
             let estimates = response?["cost_estimates"] as? [NSDictionary]
@@ -95,7 +95,7 @@ extension LyftAPI {
             "lng": position.longitude,
         ]
 
-        self.client.request(.GET, APIRoute.NearbyDrivers, parameters: parameters) { responseObject, status in
+        self.client.request(.GET, APIRoute.nearbyDrivers, parameters: parameters) { responseObject, status in
             let response = responseObject as? NSDictionary
             let error = LyftAPIError(response: response, status: status) ?? .UnknownError
             completion(Result(value: response.flatMap(NearbyDrivers.from), failWith: error))

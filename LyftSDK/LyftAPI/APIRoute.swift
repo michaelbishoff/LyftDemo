@@ -5,10 +5,10 @@ enum APIRoute {
     /// Base API URL to create requests from
     static var baseURL = URL(string: "https://api.lyft.com")!
 
-    case ETA
-    case RideTypes
-    case CostEstimates
-    case NearbyDrivers
+    case eta
+    case rideTypes
+    case costEstimates
+    case nearbyDrivers
 }
 
 extension APIRoute: Routable {
@@ -17,16 +17,16 @@ extension APIRoute: Routable {
     var url: URL {
         let path: String = {
             switch self {
-                case .ETA:
+                case .eta:
                     return "/v1/eta"
 
-                case .RideTypes:
+                case .rideTypes:
                     return "/v1/ridetypes"
 
-                case .CostEstimates:
+                case .costEstimates:
                     return "/v1/cost"
 
-                case .NearbyDrivers:
+                case .nearbyDrivers:
                     return "/v1/drivers"
             }
         }()

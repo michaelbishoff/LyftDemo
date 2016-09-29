@@ -27,9 +27,9 @@ enum HTTPMethod: String {
 /// - Unprocessable:   The request failed because an error on the information we sent.
 /// - UnknownError:    The request failed with an unknown error that shouldn't be retried.
 public enum ResponseType {
-    case Succeed
-    case BadRequest, Unauthorized, UpgradeRequired, Forbidden
-    case RetryableError, Canceled, TimedOut, Unprocessable, NotFound, UnknownError
+    case succeed
+    case badRequest, unauthorized, upgradeRequired, forbidden
+    case retryableError, canceled, timedOut, unprocessable, notFound, unknownError
 
     /// The response type for a given HTTP code.
     ///
@@ -40,44 +40,44 @@ public enum ResponseType {
     public init(fromCode code: Int) {
         switch code {
             case 200 ..< 300:
-                self = .Succeed
+                self = .succeed
 
             case 400:
-                self = .BadRequest
+                self = .badRequest
 
             case 401:
-                self = .Unauthorized
+                self = .unauthorized
 
             case 403:
-                self = .Forbidden
+                self = .forbidden
 
             case 404:
-                self = .NotFound
+                self = .notFound
 
             case 422:
-                self = .Unprocessable
+                self = .unprocessable
 
             case 426:
-                self = .UpgradeRequired
+                self = .upgradeRequired
 
             case NSURLErrorCancelled:
-                self = .Canceled
+                self = .canceled
 
             case NSURLErrorTimedOut:
-                self = .TimedOut
+                self = .timedOut
 
             case 408, 409, 500, 502, 503, 504:
-                self = .RetryableError
+                self = .retryableError
 
             default:
-                self = .UnknownError
+                self = .unknownError
         }
     }
 }
 
 final class HTTPClient {
 
-    private let session: URLSession
+    fileprivate let session: URLSession
 
     /// Initializes a new instance of HTTPClient
     ///
@@ -101,7 +101,7 @@ final class HTTPClient {
     func request(_ method: HTTPMethod, _ route: Routable, parameters: [String: Any]? = nil,
                  completion: @escaping (Any?, ResponseType) -> Void)
     {
-        let request = self.urlRequest(method: method, route: route, parameters: parameters)
+        let request = self.urlRequest(method, route: route, parameters: parameters)
         let dataTask = self.session.dataTask(with: request) { data, response, error in
             let statusCode = (response as? HTTPURLResponse)?.statusCode ?? 500
             let status = ResponseType(fromCode: statusCode)
@@ -113,7 +113,7 @@ final class HTTPClient {
         dataTask.resume()
     }
 
-    private func urlRequest(method: HTTPMethod, route: Routable,
+    fileprivate func urlRequest(_ method: HTTPMethod, route: Routable,
                             parameters: [String: Any]? = nil) -> URLRequest
     {
         var request = URLRequest(url: route.url)

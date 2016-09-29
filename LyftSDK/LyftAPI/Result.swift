@@ -3,15 +3,15 @@
 /// cases, or through the convenience properties to make them optional. You should use a `switch` statement
 /// unless you only care about a single case.
 public enum Result<T, U: Error> {
-    case Success(T)
-    case Failure(U)
+    case success(T)
+    case failure(U)
 
     /// The value if the result is a `Success`, otherwise nil
     public var value: T? {
         switch self {
-            case .Success(let value):
+            case .success(let value):
                 return value
-            case .Failure(_):
+            case .failure(_):
                 return nil
         }
     }
@@ -19,9 +19,9 @@ public enum Result<T, U: Error> {
     /// The error if the value is a `Failure`, otherwise nil
     public var error: U? {
         switch self {
-            case .Success(_):
+            case .success(_):
                 return nil
-            case .Failure(let error):
+            case .failure(let error):
                 return error
         }
     }
@@ -30,14 +30,14 @@ public enum Result<T, U: Error> {
     ///
     /// - parameter value: The value to store.
     public init(value: T) {
-        self = .Success(value)
+        self = .success(value)
     }
 
     /// Create a failed result with the given error.
     ///
     /// - parameter error: The error to store with the failure case.
     public init(error: U) {
-        self = .Failure(error)
+        self = .failure(error)
     }
 
     /// Create a result with the possible value, or error.
@@ -46,9 +46,9 @@ public enum Result<T, U: Error> {
     /// - parameter error: The error closure to use as the failure case if the value doesn't exist.
     public init(value: T?, failWith error: @autoclosure () -> U) {
         if let value = value {
-            self = .Success(value)
+            self = .success(value)
         } else {
-            self = .Failure(error())
+            self = .failure(error())
         }
     }
 }

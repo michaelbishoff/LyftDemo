@@ -44,12 +44,12 @@ public struct LyftAPIError: Error, Hashable, Equatable {
     ///
     /// - returns: The newly created LyftAPIError instance representing the first error found.
     public init?(response: NSDictionary?, status: ResponseType, allowEmptyResponse: Bool = true,
-                 handledResponses: Set<ResponseType> = [.Unprocessable, .BadRequest])
+                 handledResponses: Set<ResponseType> = [.unprocessable, .badRequest])
     {
         self.response = response
         self.status = status
 
-        if status == .Succeed && (response != nil || allowEmptyResponse) {
+        if status == .succeed && (response != nil || allowEmptyResponse) {
             return nil
         }
 
