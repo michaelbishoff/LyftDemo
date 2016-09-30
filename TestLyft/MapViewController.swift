@@ -17,6 +17,7 @@ class MapViewController: UIViewController {
     var pickupPlacemark: CLPlacemark?
     var dropoffPlacemark: CLPlacemark?
     var rideTypes: [RideType] = []
+    var selectedRideType: RideType?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -42,9 +43,32 @@ class MapViewController: UIViewController {
     }
 
     @IBAction func selectRideType(_ sender: AnyObject) {
-
+        let alert = UIAlertController(title: "Select ride type", message: nil, preferredStyle: .actionSheet)
+        for rideType in rideTypes {
+            alert.addAction(UIAlertAction(title: rideType.displayName, style: .default) { (action: UIAlertAction) in
+                self.setRideType(rideType)
+            })
+        }
+        alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
+        self.present(alert, animated: true, completion: nil)
     }
-    
+
+    fileprivate func setRideType(_ rideType: RideType) {
+        self.selectedRideType = rideType
+        self.rideTypeLabel.text = rideType.displayName
+        self.rideTypeImageView.image = nil
+        if let url = URL(string: rideType.imageURL ?? "") {
+            let task = URLSession.shared.dataTask(with: url) { data, response, error in
+                if let data = data {
+                    self.rideTypeImageView.image =  UIImage(data: data)
+                } else {
+                    print(error)
+                }
+            }
+            task.resume()
+        }
+    }
+
     @IBAction func actionButtonPressed(_ sender: AnyObject) {
         _ = self.navigationController?.popViewController(animated: true)
     }
@@ -74,7 +98,7 @@ extension MapViewController: CLLocationManagerDelegate {
                     switch result {
                     case .success(let rideTypes):
                         self.rideTypes = rideTypes
-                        self.rideTypeLabel.text = rideTypes.first?.displayName
+                        self.setRideType(rideTypes.first!)
                     case .failure(let error):
                         print(error)
                     }
