@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		36AA5EBE1D9DC5BF00085320 /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AA5EBD1D9DC5BF00085320 /* Keys.swift */; };
+		36AA5EC41D9DD6A800085320 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AA5EC31D9DD6A800085320 /* UIView+Extensions.swift */; };
 		4F1C45A91D80F585008CBCB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1C45A81D80F585008CBCB8 /* AppDelegate.swift */; };
-		4F1C45AB1D80F585008CBCB8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1C45AA1D80F585008CBCB8 /* LoginViewController.swift */; };
 		4F1C45AE1D80F585008CBCB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F1C45AC1D80F585008CBCB8 /* Main.storyboard */; };
 		4F1C45B01D80F585008CBCB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F1C45AF1D80F585008CBCB8 /* Assets.xcassets */; };
 		4F1C45B31D80F585008CBCB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F1C45B11D80F585008CBCB8 /* LaunchScreen.storyboard */; };
@@ -21,10 +21,11 @@
 		0C702F4C991ABFE6D088311B /* Pods-TestLyftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestLyftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestLyftUITests/Pods-TestLyftUITests.release.xcconfig"; sourceTree = "<group>"; };
 		2C6500E4BE9A8DB308FFDBE1 /* Pods-TestLyft.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestLyft.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestLyft/Pods-TestLyft.debug.xcconfig"; sourceTree = "<group>"; };
 		36AA5EBD1D9DC5BF00085320 /* Keys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Keys.swift; path = ../../Keys.swift; sourceTree = "<group>"; };
+		36AA5EC11D9DC8D200085320 /* Mapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mapper.framework; path = "../../Library/Developer/Xcode/DerivedData/TestLyft-czhdiooqsfrfjsfqelzwzbjcpyyf/Build/Products/Debug-iphonesimulator/ModelMapper/Mapper.framework"; sourceTree = "<group>"; };
+		36AA5EC31D9DD6A800085320 /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		46D7B11FA4F34929CDC1B3A4 /* Pods-TestLyftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestLyftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestLyftTests/Pods-TestLyftTests.release.xcconfig"; sourceTree = "<group>"; };
 		4F1C45A51D80F585008CBCB8 /* TestLyft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestLyft.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F1C45A81D80F585008CBCB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4F1C45AA1D80F585008CBCB8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		4F1C45AD1D80F585008CBCB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4F1C45AF1D80F585008CBCB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F1C45B21D80F585008CBCB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -73,7 +74,7 @@
 			children = (
 				36AA5EBD1D9DC5BF00085320 /* Keys.swift */,
 				4F1C45A81D80F585008CBCB8 /* AppDelegate.swift */,
-				4F1C45AA1D80F585008CBCB8 /* LoginViewController.swift */,
+				36AA5EC31D9DD6A800085320 /* UIView+Extensions.swift */,
 				4F1C45D61D80F89A008CBCB8 /* MapViewController.swift */,
 				4F1C45AC1D80F585008CBCB8 /* Main.storyboard */,
 				4F1C45AF1D80F585008CBCB8 /* Assets.xcassets */,
@@ -99,6 +100,7 @@
 		955EACE532EAE8C207460DE8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				36AA5EC11D9DC8D200085320 /* Mapper.framework */,
 				E8DD76D3F8D52728933E0195 /* Pods_TestLyft.framework */,
 				53A9E5D16B7F0DEB0342264B /* Pods_TestLyftTests.framework */,
 				82A1EB32438F99C6C7A60DEB /* Pods_TestLyftUITests.framework */,
@@ -229,8 +231,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F1C45AB1D80F585008CBCB8 /* LoginViewController.swift in Sources */,
 				36AA5EBE1D9DC5BF00085320 /* Keys.swift in Sources */,
+				36AA5EC41D9DD6A800085320 /* UIView+Extensions.swift in Sources */,
 				4F1C45D71D80F89A008CBCB8 /* MapViewController.swift in Sources */,
 				4F1C45A91D80F585008CBCB8 /* AppDelegate.swift in Sources */,
 			);

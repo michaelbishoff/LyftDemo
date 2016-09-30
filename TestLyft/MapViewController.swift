@@ -6,9 +6,17 @@ import LyftModels
 
 class MapViewController: UIViewController {
 
+    @IBOutlet weak var rideTypeImageView: UIImageView!
+    @IBOutlet weak var rideTypeLabel: UILabel!
+    @IBOutlet weak var pickupLabel: UILabel!
+    @IBOutlet weak var dropoffLabel: UILabel!
     @IBOutlet weak var mapView: MKMapView!
     var locationManager: CLLocationManager = CLLocationManager()
-    
+    var firstLocation: CLLocation?
+    var pickupPlacemark: CLPlacemark?
+    var dropoffPlacemark: CLPlacemark?
+    var rideTypes: [RideType] = []
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -23,11 +31,17 @@ class MapViewController: UIViewController {
         
         // Set location manager delegate to self:
         self.locationManager.delegate = self
+        self.mapView.delegate = self
+
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         self.navigationController?.setNavigationBarHidden(true, animated: true)
+    }
+
+    @IBAction func selectRideType(_ sender: AnyObject) {
+
     }
     
     @IBAction func actionButtonPressed(_ sender: AnyObject) {
@@ -48,17 +62,46 @@ extension MapViewController: CLLocationManagerDelegate {
     
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         if let location = locations.last {
-            let viewRegion = MKCoordinateRegionMakeWithDistance(location.coordinate, 500, 500)
-            let adjustedRegion = self.mapView.regionThatFits(viewRegion)
-            self.mapView.setRegion(adjustedRegion, animated: true)
-            LyftAPI.rideTypes(at: location.coordinate) { (result: Result<[RideType], LyftAPIError>) in
-                switch result {
-                case .success(let rideTypes):
-                    print(rideTypes)
-                case .failure(let error):
-                    print(error)
+            if self.firstLocation == nil {
+                self.firstLocation = location
+                let viewRegion = MKCoordinateRegionMakeWithDistance(location.coordinate, 500, 500)
+                let adjustedRegion = self.mapView.regionThatFits(viewRegion)
+                self.mapView.setRegion(adjustedRegion, animated: true)
+                manager.stopUpdatingLocation()
+
+                LyftAPI.rideTypes(at: location.coordinate, completion: { (result: Result<[RideType], LyftAPIError>) in
+                    switch result {
+                    case .success(let rideTypes):
+                        self.rideTypes = rideTypes
+                        self.rideTypeLabel.text = rideTypes.first?.displayName
+                    case .failure(let error):
+                        print(error)
+                    }
+                })
+
+                CLGeocoder().reverseGeocodeLocation(location) { (placemarks: [CLPlacemark]?, error: Error?) in
+                    if let placemark = placemarks?.first {
+                        self.pickupLabel.text = "Pickup: " + (placemark.name ?? "")
+                        self.pickupPlacemark = placemark
+                    }
                 }
             }
         }
     }
 }
+
+extension MapViewController: MKMapViewDelegate {
+
+    func mapView(_ mapView: MKMapView, regionDidChangeAnimated animated: Bool) {
+        let coordinate = mapView.region.center
+        let location = CLLocation(latitude: coordinate.latitude, longitude: coordinate.longitude)
+        CLGeocoder().reverseGeocodeLocation(location) { (placemarks: [CLPlacemark]?, error: Error?) in
+            if let placemark = placemarks?.first {
+                self.dropoffLabel.text = "Dropoff: " + (placemark.name ?? "")
+                self.dropoffPlacemark = placemark
+            }
+        }
+    }
+}
+
+

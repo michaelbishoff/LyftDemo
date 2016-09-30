@@ -1,8 +1,20 @@
 PODS:
   - ModelMapper (5.0.0-beta.2)
+  - PromiseKit (4.0.0):
+    - PromiseKit/Foundation (= 4.0.0)
+    - PromiseKit/QuartzCore (= 4.0.0)
+    - PromiseKit/UIKit (= 4.0.0)
+  - PromiseKit/CorePromise (4.0.0)
+  - PromiseKit/Foundation (4.0.0):
+    - PromiseKit/CorePromise
+  - PromiseKit/QuartzCore (4.0.0):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (4.0.0):
+    - PromiseKit/CorePromise
 
 DEPENDENCIES:
   - ModelMapper (from `https://github.com/Lyft/mapper`, branch `swift-3.0`)
+  - PromiseKit
 
 EXTERNAL SOURCES:
   ModelMapper:
@@ -16,7 +28,8 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   ModelMapper: b306e689e231331896d447a36a54643c5da0bacd
+  PromiseKit: 97edc7fb2fb7d2c68c8e09d1f79b3ab7bcb6b06a
 
-PODFILE CHECKSUM: 14bbce7110a5b3c8f12c6dece8dc5f134e0c0e80
+PODFILE CHECKSUM: a069bdbe8ed199fa3b96cc34295d50c715748167
 
 COCOAPODS: 1.1.0.rc.2
