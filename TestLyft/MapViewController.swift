@@ -3,6 +3,7 @@ import MapKit
 import CoreLocation
 import LyftAPI
 import LyftModels
+import PromiseKit
 
 class MapViewController: UIViewController {
 
@@ -69,7 +70,7 @@ extension MapViewController: CLLocationManagerDelegate {
                 self.mapView.setRegion(adjustedRegion, animated: true)
                 manager.stopUpdatingLocation()
 
-                LyftAPI.rideTypes(at: location.coordinate, completion: { (result: Result<[RideType], LyftAPIError>) in
+                LyftAPI.rideTypes(at: location.coordinate, completion: { result in
                     switch result {
                     case .success(let rideTypes):
                         self.rideTypes = rideTypes
