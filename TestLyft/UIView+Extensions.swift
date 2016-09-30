@@ -3,14 +3,27 @@ import UIKit
 
 
 @IBDesignable
-extension UIView {
+public class DesignableView: UIView {
 
     @IBInspectable var cornerRadius: CGFloat {
         get {
             return self.layer.cornerRadius
         } set {
-            self.layer.cornerRadius = cornerRadius
-            self.layer.masksToBounds = cornerRadius > 0
+            self.layer.cornerRadius = newValue
+            self.layer.masksToBounds = newValue > 0
+        }
+    }
+}
+
+@IBDesignable
+public class DesignableButton: UIButton {
+
+    @IBInspectable var cornerRadius: CGFloat {
+        get {
+            return self.layer.cornerRadius
+        } set {
+            self.layer.cornerRadius = newValue
+            self.layer.masksToBounds = newValue > 0
         }
     }
 }

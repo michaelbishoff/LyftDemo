@@ -37,7 +37,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VdC-Qk-MZD"/>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="og7-mc-zzH">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="og7-mc-zzH" customClass="DesignableView" customModule="TestLyft" customModuleProvider="target">
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TiV-O9-nRC">
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -79,7 +79,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l4h-Wd-CGs">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l4h-Wd-CGs" customClass="DesignableView" customModule="TestLyft" customModuleProvider="target">
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pickup: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SXx-LY-Jjf">
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -119,14 +119,35 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mfq-N2-3Na" customClass="DesignableButton" customModule="TestLyft" customModuleProvider="target">
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.74901960779999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="ztn-no-rom"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                <state key="normal" title="Request Ride">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="requestRideButtonPressed:" destination="1jV-hZ-Gmk" eventType="touchUpInside" id="JhN-cC-bqp"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="mfq-N2-3Na" firstAttribute="leading" secondItem="u83-01-eDD" secondAttribute="leadingMargin" id="1rP-Vs-Los"/>
                             <constraint firstAttribute="trailing" secondItem="VdC-Qk-MZD" secondAttribute="trailing" id="3ZW-OO-oxG"/>
                             <constraint firstItem="VdC-Qk-MZD" firstAttribute="top" secondItem="u83-01-eDD" secondAttribute="topMargin" id="TcA-08-U2l"/>
                             <constraint firstItem="l4h-Wd-CGs" firstAttribute="top" secondItem="og7-mc-zzH" secondAttribute="bottom" constant="8" id="YRK-ye-Nix"/>
                             <constraint firstItem="og7-mc-zzH" firstAttribute="leading" secondItem="u83-01-eDD" secondAttribute="leadingMargin" id="bpG-Yc-BwF"/>
+                            <constraint firstItem="UKg-ay-UB3" firstAttribute="top" secondItem="mfq-N2-3Na" secondAttribute="bottom" constant="16" id="cBS-MD-Tiy"/>
                             <constraint firstItem="l4h-Wd-CGs" firstAttribute="trailing" secondItem="u83-01-eDD" secondAttribute="trailingMargin" id="eOs-Nk-klw"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="mfq-N2-3Na" secondAttribute="trailing" id="iNx-vS-TVz"/>
                             <constraint firstItem="l4h-Wd-CGs" firstAttribute="leading" secondItem="u83-01-eDD" secondAttribute="leadingMargin" id="jBp-eE-6QO"/>
                             <constraint firstItem="VdC-Qk-MZD" firstAttribute="leading" secondItem="u83-01-eDD" secondAttribute="leading" id="kyR-DX-Plz"/>
                             <constraint firstItem="UKg-ay-UB3" firstAttribute="top" secondItem="VdC-Qk-MZD" secondAttribute="bottom" id="nu0-eH-nmK"/>

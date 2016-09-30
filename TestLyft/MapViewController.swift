@@ -72,6 +72,13 @@ class MapViewController: UIViewController {
     @IBAction func actionButtonPressed(_ sender: AnyObject) {
         _ = self.navigationController?.popViewController(animated: true)
     }
+
+    @IBAction func requestRideButtonPressed(_ sender: AnyObject) {
+        guard let rideType = self.selectedRideType else {
+            return
+        }
+        LyftDeepLink.requestRide(rideType.kind, from: self.pickupPlacemark?.location?.coordinate, to: self.dropoffPlacemark?.location?.coordinate, couponCode: "")
+    }
 }
 
 extension MapViewController: CLLocationManagerDelegate {
