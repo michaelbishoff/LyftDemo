@@ -13,10 +13,9 @@ Setup: Easy Mode (Start with a clean projec that only includes the SDK)
 
 # Tutorial
 Pre-setup:
-1. [Install Xcode 8](https://developer.apple.com/download/)  
-2. Create an Lyft App at https://www.lyft.com/developers/manage
+[Install Xcode 8](https://developer.apple.com/download/)  
 
-Step 0: Copy your App Token and Secret into `Keys.swift`  
+Step 0: Follow the Easy Mode setup above, and SKIP step 2  
 Step 1: Populate Ride Types
 ```
 LyftAPI.rideTypes(at: location.coordinate, completion: { result in
