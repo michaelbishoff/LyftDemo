@@ -5,6 +5,11 @@ import LyftAPI
 import LyftModels
 import PromiseKit
 
+fileprivate enum LocationType {
+    case pickup
+    case dropoff
+}
+
 class MapViewController: UIViewController {
 
     @IBOutlet weak var rideTypeImageView: UIImageView!
@@ -42,17 +47,10 @@ class MapViewController: UIViewController {
         self.navigationController?.setNavigationBarHidden(true, animated: true)
     }
 
-    @IBAction func selectRideType(_ sender: AnyObject) {
-        let alert = UIAlertController(title: "Select ride type", message: nil, preferredStyle: .actionSheet)
-        for rideType in rideTypes {
-            alert.addAction(UIAlertAction(title: rideType.displayName, style: .default) { (action: UIAlertAction) in
-                self.setRideType(rideType)
-            })
-        }
-        alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
-        self.present(alert, animated: true, completion: nil)
-    }
-
+    // STEP 2: Select Ride Type Action
+    
+    
+    
     fileprivate func setRideType(_ rideType: RideType) {
         self.selectedRideType = rideType
         self.rideTypeLabel.text = rideType.displayName
@@ -68,17 +66,16 @@ class MapViewController: UIViewController {
             task.resume()
         }
     }
-
-    @IBAction func actionButtonPressed(_ sender: AnyObject) {
-        _ = self.navigationController?.popViewController(animated: true)
+    
+    fileprivate func populateLocationLabel(location: CLLocation, type: LocationType) {
+        // STEP 3: Set Drop-off / Pickup
+        
+        
     }
-
-    @IBAction func requestRideButtonPressed(_ sender: AnyObject) {
-        guard let rideType = self.selectedRideType else {
-            return
-        }
-        LyftDeepLink.requestRide(rideType.kind, from: self.pickupPlacemark?.location?.coordinate, to: self.dropoffPlacemark?.location?.coordinate, couponCode: "")
-    }
+    
+    // STEP 5: Deep Link to Lyft Action
+    
+    
 }
 
 extension MapViewController: CLLocationManagerDelegate {
@@ -101,22 +98,10 @@ extension MapViewController: CLLocationManagerDelegate {
                 self.mapView.setRegion(adjustedRegion, animated: true)
                 manager.stopUpdatingLocation()
 
-                LyftAPI.rideTypes(at: location.coordinate, completion: { result in
-                    switch result {
-                    case .success(let rideTypes):
-                        self.rideTypes = rideTypes
-                        self.setRideType(rideTypes.first!)
-                    case .failure(let error):
-                        print(error)
-                    }
-                })
-
-                CLGeocoder().reverseGeocodeLocation(location) { (placemarks: [CLPlacemark]?, error: Error?) in
-                    if let placemark = placemarks?.first {
-                        self.pickupLabel.text = "Pickup: " + (placemark.name ?? "")
-                        self.pickupPlacemark = placemark
-                    }
-                }
+                // STEP 1: Populate Ride Types
+                
+                
+                populateLocationLabel(location: location, type: .pickup)
             }
         }
     }
@@ -124,15 +109,13 @@ extension MapViewController: CLLocationManagerDelegate {
 
 extension MapViewController: MKMapViewDelegate {
 
+    /*
+     * Get the center of the map and set it as the pickup location
+     */
     func mapView(_ mapView: MKMapView, regionDidChangeAnimated animated: Bool) {
         let coordinate = mapView.region.center
         let location = CLLocation(latitude: coordinate.latitude, longitude: coordinate.longitude)
-        CLGeocoder().reverseGeocodeLocation(location) { (placemarks: [CLPlacemark]?, error: Error?) in
-            if let placemark = placemarks?.first {
-                self.dropoffLabel.text = "Dropoff: " + (placemark.name ?? "")
-                self.dropoffPlacemark = placemark
-            }
-        }
+        populateLocationLabel(location: location, type: .dropoff)
     }
 }
 
