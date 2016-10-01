@@ -11,4 +11,5 @@ Setup: Easy Mode
 7. Build LyftAPI  
 8. [Create a Lyft API App](https://www.lyft.com/developers/manage)  
 9. Copy your `token` and `client_id` to the file `TestLyft/Keys.swift`  
-10. Use the TestLyft project in Xcode as your main project  
+10. Build TestLyft
+11. Use the TestLyft project in Xcode as your main project  
