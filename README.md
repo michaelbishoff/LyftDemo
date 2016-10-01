@@ -12,6 +12,11 @@ Setup: Easy Mode (Start with a clean projec that only includes the SDK)
 8. Use the TestLyft project in Xcode as your main project  
 
 # Tutorial
+Pre-setup:
+1. [Install Xcode 8](https://developer.apple.com/download/)
+2. Create an Lyft App at https://www.lyft.com/developers/manage
+
+Step 0: Copy your App Token and Secret into `Keys.swift`
 Step 1: Populate Ride Types
 ```
 LyftAPI.rideTypes(at: location.coordinate, completion: { result in
