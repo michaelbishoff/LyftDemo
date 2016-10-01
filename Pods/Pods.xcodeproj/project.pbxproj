@@ -24,6 +24,7 @@
 		4A3591DC36C3138FB3A37E674DA7295B /* hang.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8CBFD2885287B15B3E5FC40D38688F /* hang.m */; };
 		4B8AF2D3D760324F89C7B3289CBC28B0 /* DispatchQueue+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983B0300E8A2AF82C8CABECDC7749849 /* DispatchQueue+Promise.swift */; };
 		4D50B5C6676876DD0EC0E21080CAC74A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A817CAE99C81EE68006DC1E60E295C0A /* Foundation.framework */; };
+		4FD856341DA02EC900DB7230 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 4FD856331DA02EC900DB7230 /* README.md */; };
 		53847FD2EFEA4C411D022E355082ED8E /* Pods-LyftAPI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB1D4AB4D443BCA89996583EA095214F /* Pods-LyftAPI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		54CE64CF0208BF782250E2A032AE16CE /* Pods-LyftModels-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F4CD3F54143B2ED5EA81F607B3687EC /* Pods-LyftModels-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		559F978D830FF47B17A2A598E8F37350 /* Convertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9272A854628A94FCE2D57CF7EDC0556C /* Convertible.swift */; };
@@ -114,6 +115,7 @@
 		48BD64803ACA910ACF338969BA0E13AE /* ModelMapper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModelMapper-prefix.pch"; sourceTree = "<group>"; };
 		4E79C62F6737236302073332D5460130 /* ModelMapper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ModelMapper.modulemap; sourceTree = "<group>"; };
 		4FB1A744551B75691B0A196B56A0EAC0 /* Pods-LyftAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LyftAPI.debug.xcconfig"; sourceTree = "<group>"; };
+		4FD856331DA02EC900DB7230 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		534BED275DB4757F0A8DCED36B419AFB /* when.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = when.m; path = Sources/when.m; sourceTree = "<group>"; };
 		5771029BF410DAB6C9B3821CB165B203 /* when.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = when.swift; path = Sources/when.swift; sourceTree = "<group>"; };
 		5969066878D6F03AA501309787A3372A /* Pods-LyftAPI-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LyftAPI-resources.sh"; sourceTree = "<group>"; };
@@ -317,6 +319,7 @@
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
+				4FD856331DA02EC900DB7230 /* README.md */,
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
 				ECF666C58610CB045F0F1CC3CF84D2BE /* Pods */,
@@ -605,6 +608,7 @@
 				EABE5395FB5AC4101006767377E07432 /* NSDictionary+Safety.swift in Sources */,
 				BE22F4B447F824295E49B1A1F381EB2E /* NSURL+Convertible.swift in Sources */,
 				884EDA8083290585DE587E3F275A8886 /* Transform+Dictionary.swift in Sources */,
+				4FD856341DA02EC900DB7230 /* README.md in Sources */,
 				838958F6AD77FB80EAE76DFC215A37DD /* Transform.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
