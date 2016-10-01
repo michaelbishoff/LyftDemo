@@ -1,175 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Y85-gb-oSg">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="iez-ZC-y3K">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Navigation Controller-->
-        <scene sceneID="P1p-L4-cDJ">
+        <!--Main View Controller-->
+        <scene sceneID="Dp4-jn-Q1b">
             <objects>
-                <navigationController id="Y85-gb-oSg" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="7H2-Tn-qBx">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="1jV-hZ-Gmk" kind="relationship" relationship="rootViewController" id="ntC-AQ-WzR"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="KzA-JA-Y8I" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-1292" y="409"/>
-        </scene>
-        <!--Map View Controller-->
-        <scene sceneID="t2s-Q8-WR9">
-            <objects>
-                <viewController id="1jV-hZ-Gmk" customClass="MapViewController" customModule="TestLyft" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="iez-ZC-y3K" customClass="MainViewController" customModule="TestLyft" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="6Ra-5o-WPc"/>
-                        <viewControllerLayoutGuide type="bottom" id="UKg-ay-UB3"/>
+                        <viewControllerLayoutGuide type="top" id="0YZ-bI-0eR"/>
+                        <viewControllerLayoutGuide type="bottom" id="oNl-ny-3qb"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="u83-01-eDD">
+                    <view key="view" contentMode="scaleToFill" id="naq-W0-cFs">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VdC-Qk-MZD">
-                                <frame key="frameInset" width="1000" height="1000"/>
-                            </mapView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="og7-mc-zzH" customClass="DesignableView" customModule="TestLyft" customModuleProvider="target">
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TiV-O9-nRC">
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                        <state key="normal">
-                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="selectRideType:" destination="1jV-hZ-Gmk" eventType="touchUpInside" id="inP-N3-Aef"/>
-                                        </connections>
-                                    </button>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="kDC-CX-fBm">
-                                        <constraints>
-                                            <constraint firstAttribute="width" secondItem="kDC-CX-fBm" secondAttribute="height" multiplier="1:1" id="s9Z-oV-JZS"/>
-                                        </constraints>
-                                    </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lyft Line" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f29-Fi-e5b">
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstItem="f29-Fi-e5b" firstAttribute="centerY" secondItem="og7-mc-zzH" secondAttribute="centerY" id="4XW-Yr-IT4"/>
-                                    <constraint firstItem="kDC-CX-fBm" firstAttribute="top" secondItem="og7-mc-zzH" secondAttribute="topMargin" id="9st-Nu-Z0C"/>
-                                    <constraint firstItem="TiV-O9-nRC" firstAttribute="top" secondItem="og7-mc-zzH" secondAttribute="topMargin" id="EHy-wd-GKu"/>
-                                    <constraint firstItem="kDC-CX-fBm" firstAttribute="leading" secondItem="og7-mc-zzH" secondAttribute="leadingMargin" id="RbH-A7-BCb"/>
-                                    <constraint firstAttribute="bottomMargin" secondItem="TiV-O9-nRC" secondAttribute="bottom" id="aCJ-ag-Lri"/>
-                                    <constraint firstAttribute="trailingMargin" secondItem="TiV-O9-nRC" secondAttribute="trailing" id="bPt-X7-5ua"/>
-                                    <constraint firstItem="f29-Fi-e5b" firstAttribute="leading" secondItem="kDC-CX-fBm" secondAttribute="trailing" constant="8" id="e3h-fg-Tzo"/>
-                                    <constraint firstAttribute="height" constant="64" id="r8T-WL-OZe"/>
-                                    <constraint firstAttribute="bottomMargin" secondItem="kDC-CX-fBm" secondAttribute="bottom" id="xcN-Yv-KrK"/>
-                                    <constraint firstItem="TiV-O9-nRC" firstAttribute="leading" secondItem="og7-mc-zzH" secondAttribute="leadingMargin" id="yzM-wr-0bd"/>
-                                </constraints>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                        <real key="value" value="8"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l4h-Wd-CGs" customClass="DesignableView" customModule="TestLyft" customModuleProvider="target">
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pickup: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SXx-LY-Jjf">
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dropoff: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tRA-4M-1yP">
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5VS-xa-1HH">
-                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="0.5" id="RpM-Ve-Rud"/>
-                                        </constraints>
-                                    </view>
-                                </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstItem="5VS-xa-1HH" firstAttribute="top" secondItem="SXx-LY-Jjf" secondAttribute="bottom" constant="8" id="5Lu-Tm-eBk"/>
-                                    <constraint firstAttribute="trailingMargin" secondItem="tRA-4M-1yP" secondAttribute="trailing" id="6VN-Mh-mXO"/>
-                                    <constraint firstItem="5VS-xa-1HH" firstAttribute="centerY" secondItem="l4h-Wd-CGs" secondAttribute="centerY" id="ANz-uq-QWQ"/>
-                                    <constraint firstItem="SXx-LY-Jjf" firstAttribute="top" secondItem="l4h-Wd-CGs" secondAttribute="topMargin" id="QcY-gJ-H6k"/>
-                                    <constraint firstItem="tRA-4M-1yP" firstAttribute="leading" secondItem="l4h-Wd-CGs" secondAttribute="leadingMargin" id="UGj-Je-ZEE"/>
-                                    <constraint firstItem="5VS-xa-1HH" firstAttribute="leading" secondItem="l4h-Wd-CGs" secondAttribute="leadingMargin" id="Ufp-TA-cje"/>
-                                    <constraint firstItem="SXx-LY-Jjf" firstAttribute="leading" secondItem="l4h-Wd-CGs" secondAttribute="leadingMargin" id="Y31-Sy-I0f"/>
-                                    <constraint firstAttribute="trailingMargin" secondItem="SXx-LY-Jjf" secondAttribute="trailing" id="kgi-6f-JCV"/>
-                                    <constraint firstAttribute="bottomMargin" secondItem="tRA-4M-1yP" secondAttribute="bottom" id="rur-RY-BxB"/>
-                                    <constraint firstItem="tRA-4M-1yP" firstAttribute="top" secondItem="5VS-xa-1HH" secondAttribute="bottom" constant="8" id="vf3-uN-u69"/>
-                                    <constraint firstAttribute="trailingMargin" secondItem="5VS-xa-1HH" secondAttribute="trailing" id="y8i-q2-jZJ"/>
-                                </constraints>
-                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                        <real key="value" value="8"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mfq-N2-3Na" customClass="DesignableButton" customModule="TestLyft" customModuleProvider="target">
-                                <color key="backgroundColor" red="1" green="0.0" blue="0.74901960779999999" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="48" id="ztn-no-rom"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
-                                <state key="normal" title="Request Ride">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                        <real key="value" value="8"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="requestRideButtonPressed:" destination="1jV-hZ-Gmk" eventType="touchUpInside" id="JhN-cC-bqp"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="mfq-N2-3Na" firstAttribute="leading" secondItem="u83-01-eDD" secondAttribute="leadingMargin" id="1rP-Vs-Los"/>
-                            <constraint firstAttribute="trailing" secondItem="VdC-Qk-MZD" secondAttribute="trailing" id="3ZW-OO-oxG"/>
-                            <constraint firstItem="VdC-Qk-MZD" firstAttribute="top" secondItem="u83-01-eDD" secondAttribute="topMargin" id="TcA-08-U2l"/>
-                            <constraint firstItem="l4h-Wd-CGs" firstAttribute="top" secondItem="og7-mc-zzH" secondAttribute="bottom" constant="8" id="YRK-ye-Nix"/>
-                            <constraint firstItem="og7-mc-zzH" firstAttribute="leading" secondItem="u83-01-eDD" secondAttribute="leadingMargin" id="bpG-Yc-BwF"/>
-                            <constraint firstItem="UKg-ay-UB3" firstAttribute="top" secondItem="mfq-N2-3Na" secondAttribute="bottom" constant="16" id="cBS-MD-Tiy"/>
-                            <constraint firstItem="l4h-Wd-CGs" firstAttribute="trailing" secondItem="u83-01-eDD" secondAttribute="trailingMargin" id="eOs-Nk-klw"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="mfq-N2-3Na" secondAttribute="trailing" id="iNx-vS-TVz"/>
-                            <constraint firstItem="l4h-Wd-CGs" firstAttribute="leading" secondItem="u83-01-eDD" secondAttribute="leadingMargin" id="jBp-eE-6QO"/>
-                            <constraint firstItem="VdC-Qk-MZD" firstAttribute="leading" secondItem="u83-01-eDD" secondAttribute="leading" id="kyR-DX-Plz"/>
-                            <constraint firstItem="UKg-ay-UB3" firstAttribute="top" secondItem="VdC-Qk-MZD" secondAttribute="bottom" id="nu0-eH-nmK"/>
-                            <constraint firstItem="og7-mc-zzH" firstAttribute="top" secondItem="6Ra-5o-WPc" secondAttribute="bottom" id="tC7-qO-kya"/>
-                            <constraint firstItem="og7-mc-zzH" firstAttribute="trailing" secondItem="u83-01-eDD" secondAttribute="trailingMargin" id="yy7-26-xO0"/>
-                        </constraints>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="EcM-PE-Gxj"/>
-                    <nil key="simulatedTopBarMetrics"/>
-                    <connections>
-                        <outlet property="dropoffLabel" destination="tRA-4M-1yP" id="4uP-DT-lbr"/>
-                        <outlet property="mapView" destination="VdC-Qk-MZD" id="ufs-Wh-Q9a"/>
-                        <outlet property="pickupLabel" destination="SXx-LY-Jjf" id="QHQ-D6-ZGi"/>
-                        <outlet property="rideTypeImageView" destination="kDC-CX-fBm" id="pSL-cQ-zEy"/>
-                        <outlet property="rideTypeLabel" destination="f29-Fi-e5b" id="23s-sQ-gLE"/>
-                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="o2r-QD-Ltb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zbl-SH-Oqj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-474.39999999999998" y="408.84557721139436"/>
+            <point key="canvasLocation" x="-879" y="251"/>
         </scene>
     </scenes>
 </document>
