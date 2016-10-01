@@ -7,7 +7,9 @@
 //
 
 import UIKit
+import CoreLocation
 import LyftAPI
+import LyftModels
 
 class MainViewController: UIViewController {
 
@@ -15,7 +17,15 @@ class MainViewController: UIViewController {
         super.viewDidLoad()
 
         // Use the Lyft API!
-        // LyftAPI.rideTypes(at: <#T##CLLocationCoordinate2D#>, completion: <#T##(Result<[RideType], LyftAPIError>) -> Void#>)
+        let location = CLLocationCoordinate2D(latitude: 39.253848, longitude: -76.714300)
+        LyftAPI.rideTypes(at: location) { (result: Result<[RideType], LyftAPIError>) in
+            switch result {
+            case .success(let rideTypes):
+                print(rideTypes)
+            case .failure(let error):
+                print(error)
+            }
+        }
     }
 
     override func didReceiveMemoryWarning() {
