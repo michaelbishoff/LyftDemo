@@ -1,0 +1,41 @@
+PODS:
+  - ModelMapper (5.0.0-beta.2)
+  - PromiseKit (4.0.0):
+    - PromiseKit/Foundation (= 4.0.0)
+    - PromiseKit/QuartzCore (= 4.0.0)
+    - PromiseKit/UIKit (= 4.0.0)
+  - PromiseKit/CorePromise (4.0.0)
+  - PromiseKit/Foundation (4.0.0):
+    - PromiseKit/CorePromise
+  - PromiseKit/QuartzCore (4.0.0):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (4.0.0):
+    - PromiseKit/CorePromise
+
+DEPENDENCIES:
+  - ModelMapper (from `https://github.com/Lyft/mapper`, branch `swift-3.0`)
+  - PromiseKit (from `https://github.com/mxcl/PromiseKit`, branch `swift-3.0`)
+
+EXTERNAL SOURCES:
+  ModelMapper:
+    :branch: swift-3.0
+    :git: https://github.com/Lyft/mapper
+  PromiseKit:
+    :branch: swift-3.0
+    :git: https://github.com/mxcl/PromiseKit
+
+CHECKOUT OPTIONS:
+  ModelMapper:
+    :commit: eead7f57eacbcda5257925e3ceb99cd73a611fac
+    :git: https://github.com/Lyft/mapper
+  PromiseKit:
+    :commit: 5eb1ad5008f5b52beab30b5d5df7a083f2ad9711
+    :git: https://github.com/mxcl/PromiseKit
+
+SPEC CHECKSUMS:
+  ModelMapper: b306e689e231331896d447a36a54643c5da0bacd
+  PromiseKit: 7b540d33b9ef6a5b644437a729559a71b1569e19
+
+PODFILE CHECKSUM: f84210a58d8ad8ddb5e4e973107ee96ccd497b37
+
+COCOAPODS: 1.1.0.rc.2
