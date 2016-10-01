@@ -1,10 +1,10 @@
 Steps to integrate LyftSDK  
-1. Copy the LyftSDK folder to your project directory.
-2. Run pod init in your project directory (this creates a Podfile)
-3. Run pod install (this creates an xcworkspace)
-4. Open the xcworkspace
-5. Drag LyftSDK.xcodeproj into the xcworkspace at the top level.
-6. Add the following to your podfile:
+1. Copy the LyftSDK folder to your project directory.  
+2. Run pod init in your project directory (this creates a Podfile)  
+3. Run pod install (this creates an xcworkspace)  
+4. Open the xcworkspace  
+5. Drag LyftSDK.xcodeproj into the xcworkspace at the top level.  
+6. Add the following to your podfile:  
 ```
 # At the top of your podfile:
 workspace 'TestLyft.xcworkspace'
