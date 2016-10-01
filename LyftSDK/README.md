@@ -1,3 +1,4 @@
+Nice formatting here: https://github.com/michaelbishoff/LyftDemo/tree/master/LyftSDK
 Steps to integrate LyftSDK  
 1. Copy the LyftSDK folder to your project directory.  
 2. Run pod init in your project directory (this creates a Podfile)  
