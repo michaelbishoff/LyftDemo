@@ -1,3 +1,5 @@
 .DS_Store
 LyftSDK/.DS_Store
 *~
+Keys.swift
+TestLyft/Keys.swift
